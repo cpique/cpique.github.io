@@ -41,7 +41,6 @@ I consider myself a self-learner person who always tries to be updated to keep u
 
 
 ### Tech knowledge
-The technologies I’ve been using as a professional are the following:
 *BE: ASP.NET, MVC, C#, WebApi, .NET Framework, EF, LINQ, Azure, IIS, ADO.NET, REST, WCF, WS ASMX,, Unit Test, Windows forms, Task Scheduler (Win).
 *FE: Angular, Typescript, NMP, Bootstrap, HTML 5, CSS, jQuery, AngularJS, JSON.
 *Database: MSSQL, Oracle, MySql, Azure SQL, SQL Developer, Stored Procedures, Jobs.
@@ -49,10 +48,10 @@ The technologies I’ve been using as a professional are the following:
 *Others: Google Analytics, Design Patterns, Agile, Scrum, UML, XML.
 
 ### Languages
-- Spanish (Native)
-- English (Advanced)
-- Portuguese (Basic)
-- Esperanto (Basic)
+*Spanish (Native)
+*English (Advanced)
+*Portuguese (Basic)
+*Esperanto (Basic)
 
 
 ### Download CV
@@ -62,5 +61,5 @@ You can download my CV (Updated to 05/05/2016) [here]({{ "/assets/cristian-pique
 ### Other Activities
 
 I watch and enjoy playing <i class="em em-soccer"></i> a lot, and I am a fan of [Lanus](http://www.clublanus.com/).
-I also enjoy playing <i class="em em-chess"></i> and reading <i class="em em-book"></i>.
+I also enjoy playing chess, watching TV series and reading <i class="em em-book"></i>.
 

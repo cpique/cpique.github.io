@@ -9,15 +9,15 @@ permalink:        pretty
 title:            Cristian Piqué
 tagline:          'Cristian Piqué'
 description:      'My personal blog of tech and life.'
-url:              http://longqian.me/
+url:              https://cpique.github.io/
 
 author:
-  name:           'Long Qian'
-  url:            http://longqian.me/
+  name:           'Cristian Piqué'
+  url:            https://cpique.github.io/
 
 paginate:         2
 google_analytics: 'UA-91425204-3'
-bing_seo:		  'ECA8D4503D79297E7BB223666F18CAF8'
+# bing_seo:		  'ECA8D4503D79297E7BB223666F18CAF8'
 emailme:          mailto:cristian.andres.pique@gmail.com
 
 gems:             [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap]
