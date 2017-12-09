@@ -16,8 +16,7 @@ author:
   url:            https://cpique.github.io/
 
 paginate:         2
-google_analytics: 'UA-91425204-3'
-# bing_seo:		  'ECA8D4503D79297E7BB223666F18CAF8'
+google_analytics: 'UA-110928553-1'
 emailme:          mailto:cristian.andres.pique@gmail.com
 
 gems:             [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap]
