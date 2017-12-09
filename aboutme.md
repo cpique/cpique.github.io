@@ -54,10 +54,6 @@ I consider myself a self-learner person who always tries to be updated to keep u
 * Esperanto (Basic)
 
 
-### Download CV
-You can download my CV (Updated to 05/05/2016) [here]({{ "assets/cristian-pique.pdf" | absolute_url }}).
-
-
 ### Other Activities
 
 I watch and enjoy playing <i class="em em-soccer"></i> a lot, and I am a fan of [Lanus](http://www.clublanus.com/).
