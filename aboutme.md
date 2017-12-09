@@ -9,9 +9,9 @@ title: About Me
 <blockquote class="full-width"><p>Systems engineer, Web developer, Active language learner</p></blockquote>
 
 
-I am Cristian Piqué a System engineer living in Rosario, Argentina. I studied at [Universidad Tecnológica Nacional] (http://www.utn.edu.ar/). 
+I am Cristian Piqué a System engineer living in Rosario, Argentina. I studied at [Universidad Tecnológica Nacional](http://www.utn.edu.ar/). 
 Here you will find info about me and programming-related stuff that I find interesting to share. Most of the posts correspond with programming and software development in general but you can also came across with another random topics here like movies, languages and space.
-You can contact me through my email or by any social media network. Links in the bottom of the home page.
+You can contact me through my email in the Contact page or by any social media network. Links in the sidebar.
 
 ### Education
 * Economía y Gestión de las Organizaciones, Escuela Normal Superior Media N°1, Argentina
@@ -19,7 +19,7 @@ You can contact me through my email or by any social media network. Links in the
 
 
 ### More about me
-I gratuated at Universidad Tecnológica Nacional in Rosario Argentina with a bachelor's degree in Systems Engineering. The most important teachings the university gave me are the ability to see things with a professional 'point of view' and the capability to solve problems in an effective way as well as make good decisions under pressure. 
+I gratuated at Universidad Tecnológica Nacional in Rosario Argentina with a bachelor's degree in Systems Engineering. The most important teachings the university gave me are the ability to see things with a professional point of view and the capability to solve problems in an effective way as well as make good decisions under pressure. 
 Since I graduated I'm more keen on the technical aspects of the field, that's why I take a lot of online courses to improve what I already know on websites like PluralSight, Microsoft MVA and Google and Android developers site.
 I consider myself a self-learner person who always tries to be updated to keep up with new technologies and frameworks available. Althought I started with a web focus, now I'm an active learner of both the web and mobile worlds. 
 
@@ -41,21 +41,21 @@ I consider myself a self-learner person who always tries to be updated to keep u
 
 
 ### Tech knowledge
-*BE: ASP.NET, MVC, C#, WebApi, .NET Framework, EF, LINQ, Azure, IIS, ADO.NET, REST, WCF, WS ASMX,, Unit Test, Windows forms, Task Scheduler (Win).
-*FE: Angular, Typescript, NMP, Bootstrap, HTML 5, CSS, jQuery, AngularJS, JSON.
-*Database: MSSQL, Oracle, MySql, Azure SQL, SQL Developer, Stored Procedures, Jobs.
-*Source control: GIT.
-*Others: Google Analytics, Design Patterns, Agile, Scrum, UML, XML.
+* BE: ASP.NET, MVC, C#, WebApi, .NET Framework, EF, LINQ, Azure, IIS, ADO.NET, REST, WCF, WS ASMX,, Unit Test, Windows forms, Task Scheduler (Win).
+* FE: Angular, Typescript, NMP, Bootstrap, HTML 5, CSS, jQuery, AngularJS, JSON.
+* Database: MSSQL, Oracle, MySql, Azure SQL, SQL Developer, Stored Procedures, Jobs.
+* Source control: GIT.
+* Others: Google Analytics, Design Patterns, Agile, Scrum, UML, XML.
 
 ### Languages
-*Spanish (Native)
-*English (Advanced)
-*Portuguese (Basic)
-*Esperanto (Basic)
+* Spanish (Native)
+* English (Advanced)
+* Portuguese (Basic)
+* Esperanto (Basic)
 
 
 ### Download CV
-You can download my CV (Updated to 05/05/2016) [here]({{ "/assets/cristian-pique.pdf" | absolute_url }}).
+You can download my CV (Updated to 05/05/2016) [here]({{ "assets/cristian-pique.pdf" | absolute_url }}).
 
 
 ### Other Activities
