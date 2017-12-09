@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: hololens"
-tag: hololens
+title: "Tag: c#"
+tag: c#
 robots: noindex
 ---
