@@ -4,47 +4,63 @@ title: About Me
 ---
 
 
-<p class="full-width no-margin"><img src="/public/image/profile.jpg" alt="LQ" style="width:15rem;height:15rem;" align="right"/></p>
+<p class="full-width no-margin"><img src="/public/image/profile.jpg" alt="CP" style="width:15rem;height:15rem;" align="right"/></p>
 
-<blockquote class="full-width"><p>Augmented Reality Programmer, Researcher and Enthusiast</p></blockquote>
+<blockquote class="full-width"><p>Systems engineer, Web developer, Active language learner</p></blockquote>
 
 
-I am (<span lang="zh">钱隆</span>) a Ph.D student at the Department of Computer Science at [Johns Hopkins University](https://www.jhu.edu/). My research focuses are **Augmented Reality** and **Robotics**, with emphasis on both scientific and engineering aspects. My supervisors are [Dr. Peter Kazanzides](https://www.cs.jhu.edu/faculty/peter-kazanzides/) and [Dr. Nassir Navab](https://www.cs.jhu.edu/faculty/nassir-navab/). Prior to my Ph.D studies, I received B.E. at [Tsinghua University](http://www.tsinghua.edu.cn/), China.
+I am Cristian Piqué a System engineer living in Rosario, Argentina. I studied at [Universidad Tecnológica Nacional] (http://www.utn.edu.ar/). 
+Here you will find info about me and programming-related stuff that I find interesting to share. Most of the posts correspond with programming and software development in general but you can also came across with another random topics here like movies, languages and space.
+You can contact me through my email or by any social media network. Links in the bottom of the home page.
 
 ### Education
-* B.E. Electronics Engineering, Tsinghua University, China, 2011 – 2015
-* Exchange, KTH – Royal Institute of Technology, Sweden, 2013
-* Ph.D. Computer Science, Johns Hopkins University, US, 2015 – Now
+* Economía y Gestión de las Organizaciones, Escuela Normal Superior Media N°1, Argentina
+* Systems Engineering, Universidad Tecnológica Nacional, Argentina, 2008-2016
 
 
-### Publication
-* **Long Qian**, Alexander Barthel, Alex Johnson, Greg Osgood, Peter Kazanzides, Nassir Navab and Bernhard Fuerst. *Comparison of Optical See-Through Head-Mounted Displays for Surgical Interventions with Object-Anchored 2D-Display*. 2017 IPCAI [@Paper](https://link.springer.com/article/10.1007/s11548-017-1564-y)
-* Ehsan Azimi, **Long Qian**, Peter Kazanzides and Nassir Navab. *Robust Optical See-Through Head-Mounted Display Calibration:Taking Anisotropic Nature of User Interaction Errors into Account*. 2017 IEEE VR [@Paper](http://ieeexplore.ieee.org/document/7892255/)
-* Jianren Wang, **Long Qian**, Ehsan Azimi and Peter Kazanzides. *Prioritization and Static Error Compensation for Multi-camera Collaborative Tracking in Augmented Reality*. 2017 IEEE VR [@Paper](http://ieeexplore.ieee.org/document/7892313/)
-* **Long Qian**, Alexander Winkler, Bernhard Fuerst, Peter Kazanzides and Nassir Navab. *Reduction of Interaction Space in Single Point Active Alignment Method for Optical See-Through Head-Mounted Display Calibration*. 2016 ISMAR [@Paper](http://ieeexplore.ieee.org/document/7836487/) [@Poster](/public/document/poster-reduction-of-interaction-space.pdf)
-* **Long Qian**, Alexander Winkler, Bernhard Fuerst, Peter Kazanzides and Nassir Navab. *Modeling Physical Structure as Additional Constraints for Stereoscopic Optical See-Through Head-Mounted Display Calibration*. 2016 ISMAR [@Paper](http://ieeexplore.ieee.org/document/7836486/) [@Poster](/public/document/poster-modeling-physical-structure.pdf)
-* **Long Qian**, Zihan Chen, and Peter Kazanzides. *An Ethernet to FireWire bridge for real-time control of the da Vinci Research Kit (dVRK)*. 2015 ETFA [@Paper](http://ieeexplore.ieee.org/document/7301489/)
+### More about me
+I gratuated at Universidad Tecnológica Nacional in Rosario Argentina with a bachelor's degree in Systems Engineering. The most important teachings the university gave me are the ability to see things with a professional 'point of view' and the capability to solve problems in an effective way as well as make good decisions under pressure. 
+Since I graduated I'm more keen on the technical aspects of the field, that's why I take a lot of online courses to improve what I already know on websites like PluralSight, Microsoft MVA and Google and Android developers site.
+I consider myself a self-learner person who always tries to be updated to keep up with new technologies and frameworks available. Althought I started with a web focus, now I'm an active learner of both the web and mobile worlds. 
 
 
 ### Professional Experience
 
-#### Teaching Assistant
-* Intro Programming for Scientists & Engineers, Fall 2015 [@Course](http://www.cs.jhu.edu/~joanne/cs112/)
-* Robot Devices, Kinematics, Dynamics, and Control, Fall 2016 [@Course](https://limbs.lcsr.jhu.edu/people/cowan/courses/)
+#### Developer
+* SD Analyst, Neoris, 2014-2015
+* Software Developer, 2015-Now
 
-#### Research Assistant
-* Augmented Reality for Combat Medics Training, 2015 – Now [@Project](http://smarts.lcsr.jhu.edu/research/augmented-reality-hmd-research/)
-* Calibration Methods for Optical See-Through Head-Mounted Display, 2015 – Now [@Project](http://smarts.lcsr.jhu.edu/research/augmented-reality-hmd-research/)
-* Ethernet-Firewire Firmware for da Vinci Research Kit, 2014 [@Project](http://smarts.lcsr.jhu.edu/research/#Open_Source_Controller_for_da_Vinci_Research_Kit)
+#### Projects
+* Telecom Portales y Media, development and maintenance of Telecom portals (C#, ASP.NET, Web Services, SQL Server, Entity Framework, HTML, CSS, Bootstrap, XSLT, XML, Javascript, JQuery)
+* GCM, massive communications delivery manager via a variety of channels
+* TFORM, dynamic form creator
 
-#### Internship
-* Data Analyst and Consultant, Accenture Beijing, 2015
-* Applied Research Engineer, [Intuitive Surgical](https://www.intuitivesurgical.com/), Sunnyvale, 2017
-* Software Engineer, [Google Daydream](https://vr.google.com/daydream/), Mountain View, 2017
+#### Certifications
+* MCPS: Microsoft Certified Professional, 2015 
+* MS: Programming in HTML5 with JavaScript and CSS3, 2015
+
+
+### Tech knowledge
+The technologies I’ve been using as a professional are the following:
+*BE: ASP.NET, MVC, C#, WebApi, .NET Framework, EF, LINQ, Azure, IIS, ADO.NET, REST, WCF, WS ASMX,, Unit Test, Windows forms, Task Scheduler (Win).
+*FE: Angular, Typescript, NMP, Bootstrap, HTML 5, CSS, jQuery, AngularJS, JSON.
+*Database: MSSQL, Oracle, MySql, Azure SQL, SQL Developer, Stored Procedures, Jobs.
+*Source control: GIT.
+*Others: Google Analytics, Design Patterns, Agile, Scrum, UML, XML.
+
+### Languages
+- Spanish (Native)
+- English (Advanced)
+- Portuguese (Basic)
+- Esperanto (Basic)
+
+
+### Download CV
+You can download my CV (Updated to 05/05/2016) [here]({{ "/assets/cristian-pique.pdf" | absolute_url }}).
 
 
 ### Other Activities
 
-I watch <i class="em em-soccer"></i> a lot, and I am a fan of [FC Barcelona](https://www.fcbarcelona.com/).
-I also enjoy playing <i class="em em-tennis"></i> and <i class="em em-swimmer"></i>.
+I watch and enjoy playing <i class="em em-soccer"></i> a lot, and I am a fan of [Lanus](http://www.clublanus.com/).
+I also enjoy playing <i class="em em-chess"></i> and reading <i class="em em-book"></i>.
 
