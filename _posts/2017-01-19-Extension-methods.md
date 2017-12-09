@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Extension methods in C# 
-tags: c#, extension-methods, programming
+tags: c# extension-methods programming
 ---
 
 According to MSDN, Extension methods enable you to “add” methods to existing types without creating a new derived type, recompiling, or otherwise modifying the original type. Extension methods are a special kind of static method, but they are called as if they were instance methods on the extended type. There is no apparent difference between calling an extension method and the methods that are actually defined in a type.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Where are we located in the Universe?
-tags: universe, space
+tags: universe space
 ---
 
 We have an address in the Universe. We are just a dot in the gigantestic cosmos, and we only know a part of it, so we are a dot in the part that we know of the cosmos.
@@ -67,4 +67,4 @@ Very similar, to the point that in that Universe you would have a different eye 
 
 The dimension of the Universe is always a reminder of how small and unimportant we are.
 
-https://upload.wikimedia.org/wikipedia/commons/f/f5/Earth%27s_Location_in_the_Universe_VERTICAL_%28JPEG%29.jpg
+[Full image](https://upload.wikimedia.org/wikipedia/commons/f/f5/Earth%27s_Location_in_the_Universe_VERTICAL_%28JPEG%29.jpg)
