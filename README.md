@@ -1,10 +1,7 @@
 # My Blog
 
-Recording pieces of code and life. [http://longqian.me](http://longqian.me)
+Personal site and blog. [https://cpique.github.io/](https://cpique.github.io/) 
 
-### Theme
-
-The theme is forked from [hyde](https://github.com/poole/hyde).
 
 ### License
 
