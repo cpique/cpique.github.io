@@ -61,11 +61,8 @@ JSON.stringify() & JSON.parse()
 JSON.parse() : parses a JSON string, constructing the JavaScript value or object described by the string
 A common use of JSON is to exchange data to/from a web server. When receiving data from a web server, the data is always a string.
 Because of that, it's a common practice parsing the data with JSON.parse(), and the data becomes a JavaScript object.
-var obj = JSON.parse('{ "name":"John", "age":30, "city":"New York"}');
 
 JSON.stringify() : converts a JavaScript value to a JSON string
 When sending data to a web server, the data has to be a string.
 Convert a JavaScript object into a string with JSON.stringify().
-var obj = { "name":"John", "age":30, "city":"New York"};
-var myJSON = JSON.stringify(obj); 
 The line of code above produces a string ready to be sent to a server
