@@ -38,6 +38,9 @@ Valid data types to use in JSON:
 
 ### Object
 
+<img src="/public/image/2017-3-1-JSON/01.jpg" alt="JSON Example" style="width:100%;" />
+<img src="/public/image/merida-monumnet.jpg" alt="merida" style="width:100%;"/>
+
 Begins with { and ends with }. Inside of these curly braces there are key/value pairs separated by a comma ','.
 Each pair at the same time is divided by a colon ':'.
 
