@@ -69,9 +69,9 @@ Convert a JavaScript object into a string with JSON.stringify().
 The lines of codes above produce a string ready to be sent to a server.
 
 ### Reference links
-[JSON org](https://goo.gl/O2WH)
-[W3schools](https://goo.gl/EJuVgM)
-[Formatter and validator](https://goo.gl/ZbC1fN)
+[JSON org](https://goo.gl/O2WH) 
+[W3schools](https://goo.gl/EJuVgM) 
+[Formatter and validator](https://goo.gl/ZbC1fN) 
 [Formatter](https://goo.gl/8wffRD)
 
 Thanks for reading !
