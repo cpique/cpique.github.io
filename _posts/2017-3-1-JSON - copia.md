@@ -111,12 +111,11 @@ public class Response
 }
 {% endhighlight %}
 
-### Reference links
+### Tools 
 
-[JSON org](https://goo.gl/O2WH){:target="_blank"} 
-[W3schools](https://goo.gl/EJuVgM){:target="_blank"} 
-[Formatter and validator](https://goo.gl/ZbC1fN){:target="_blank"} 
-[Formatter](https://goo.gl/8wffRD){:target="_blank"}
+[JSON Formatter and validator](https://goo.gl/ZbC1fN){:target="_blank"} Allows you to validate json text indicating you whether it is valid or not. If it is valid, it will petty print your text. If not, it will inform you about the errors in the input.
+[Another JSON Formatter](https://goo.gl/8wffRD){:target="_blank"} Another formatter with validation. It has also different conversion options.
+
 
 ### Reference links
 [JSON org](https://goo.gl/O2WH){:target="_blank"} 
