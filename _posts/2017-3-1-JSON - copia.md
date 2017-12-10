@@ -54,19 +54,7 @@ another array inside of it, and so on.
 ### Examples 
 [Here](https://goo.gl/Lw5tO2) you'll find real-life escenarios.
 
-### Tools 
-Formatters
-https://goo.gl/ZbC1fN --> Allows you to validate json text indicating you whether it is valid or not. If it is valid, it will petty print your text. If not, it will inform you about the errors in the input.
-https://goo.gl/8wffRD ---> Another formatter with validation. It has also different conversion options.
 
-
-
-
-### Reference links:
-https://goo.gl/O2WH
-https://goo.gl/EJuVgM
-https://goo.gl/ZbC1fN
-https://goo.gl/8wffRD
 
 Thanks for reading !
 
