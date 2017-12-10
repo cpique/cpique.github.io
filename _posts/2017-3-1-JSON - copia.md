@@ -68,12 +68,48 @@ Convert a JavaScript object into a string with JSON.stringify().
 <p class="full-width"><img src="/public/image/2017-3-1-JSON_04.png" alt="JSON stringify utility"/></p>
 The lines of codes above produce a string ready to be sent to a server.
 
-### Tools 
-[JSON Formatter and validator](https://goo.gl/ZbC1fN){:target="_blank"} 
-[Another JSON Formatter](https://goo.gl/8wffRD){:target="_blank"} 
+### CSharp
+JavaScriptSerializer `Deserialize()` and `Serialize()` to read and write to JSON files
+Create a empty web application with a unit test project.
+In a test method of the test project, paste the following code:
 
-The first link above allows you to validate JSON text indicating you whether it is valid or not. If it is valid, it will petty print your text. If not, it will inform you about the errors in the input.
-The second one is another formatter with validation. It has also different conversion options.
+{% highlight csharp %}
+[TestMethod]
+public void TestDeserialize()
+{
+	string json = @"{""Data"":[{""ID"":""1"",""Name"":""Argentina""}, {""ID"":""2"",""Name"":""Brazil""}, {""ID"":""3"",""Name"":""Denmark""}, {""ID"":""4"",""Name"":""Italy""}]}";
+	JavaScriptSerializer _js = new JavaScriptSerializer();
+	Countries c = _js.Deserialize<Countries>(json);
+	Assert.AreEqual(c.Data.Count , 4);
+}
+
+[TestMethod]
+public void TestSerialize()
+{
+	var response = new Response { Data = "Data to send to the client", IsSuccess = true, Message = "Ok" };
+	JavaScriptSerializer _js = new JavaScriptSerializer();
+	var responseSerialized = _js.Serialize(response);
+	Assert.IsTrue(!string.IsNullOrEmpty(responseSerialized));
+}
+
+public class Countries
+{
+	public List<Country> Data { get; set; } = new List<Country>();
+}
+
+public class Country
+{
+	public int ID { get; set; }
+	public String Name { get; set; }
+}
+
+public class Response
+{
+	public object Data;
+	public string Message { get; set; }
+	public bool IsSuccess { get; set; }
+}
+{% endhighlight %}
 
 ### Reference links
 [JSON org](https://goo.gl/O2WH){:target="_blank"} 
