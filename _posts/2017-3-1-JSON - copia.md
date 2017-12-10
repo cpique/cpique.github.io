@@ -69,15 +69,17 @@ Convert a JavaScript object into a string with JSON.stringify().
 The lines of codes above produce a string ready to be sent to a server.
 
 ### Tools 
-Formatters
-[JSON Formatter and validator](https://goo.gl/ZbC1fN) Allows you to validate json text indicating you whether it is valid or not. If it is valid, it will petty print your text. If not, it will inform you about the errors in the input.
-[Another JSON Formatter](https://goo.gl/8wffRD) Another formatter with validation. It has also different conversion options.
+[JSON Formatter and validator](https://goo.gl/ZbC1fN){:target="_blank"} 
+[Another JSON Formatter](https://goo.gl/8wffRD){:target="_blank"} 
+
+The first link above allows you to validate JSON text indicating you whether it is valid or not. If it is valid, it will petty print your text. If not, it will inform you about the errors in the input.
+The second one is another formatter with validation. It has also different conversion options.
 
 ### Reference links
-[JSON org](https://goo.gl/O2WH) 
-[W3schools](https://goo.gl/EJuVgM) 
-[Formatter and validator](https://goo.gl/ZbC1fN) 
-[Formatter](https://goo.gl/8wffRD)
+[JSON org](https://goo.gl/O2WH){:target="_blank"} 
+[W3schools](https://goo.gl/EJuVgM){:target="_blank"} 
+[Formatter and validator](https://goo.gl/ZbC1fN){:target="_blank"} 
+[Formatter](https://goo.gl/8wffRD){:target="_blank"}
 
 Thanks for reading !
 
