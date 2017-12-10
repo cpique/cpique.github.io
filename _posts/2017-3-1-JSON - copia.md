@@ -66,7 +66,13 @@ Because of that, it's a common practice parsing the data with JSON.parse(), tran
 When sending data to a web server, the data has to be a string.
 Convert a JavaScript object into a string with JSON.stringify().
 <p class="full-width"><img src="/public/image/2017-3-1-JSON_04.png" alt="JSON stringify utility"/></p>
-The line of code above produces a string ready to be sent to a server.
+The lines of codes above produce a string ready to be sent to a server.
+
+### Reference links
+[JSON org](https://goo.gl/O2WH)
+[W3schools](https://goo.gl/EJuVgM)
+[Formatter and validator](https://goo.gl/ZbC1fN)
+[Formatter](https://goo.gl/8wffRD)
 
 Thanks for reading !
 
