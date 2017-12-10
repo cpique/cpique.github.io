@@ -37,13 +37,6 @@ Null
 * Array
 
 ### Object
-{% highlight javascript %}
-var obj = 
-{
-    "name": "john",
-    "age": 26
-}
-{% endhighlight %}
 Begins with { and ends with }. Inside of these curly braces there are key/value pairs separated by a comma ','.
 Each pair at the same time is divided by a colon ':'.
 Example of an object:
