@@ -111,10 +111,10 @@ public class Response
 }
 {% endhighlight %}
 
-### asdd
+### Online JSON formatters and validators
 
-[JSON Formatter and validator](https://jsonformatter.curiousconcept.com/){:target="_blank"} Allows you to validate json text indicating you whether it is valid or not. If it is valid, it will petty print your text. If not, it will inform you about the errors in the input.
-[Another JSON Formatter](https://jsonformatter.org/){:target="_blank"} Another formatter with validation. It has also different conversion options.
+* [JSON Formatter and validator](https://jsonformatter.curiousconcept.com/){:target="_blank"} Allows you to validate json text indicating you whether it is valid or not. If it is valid, it will petty print your text. If not, it will inform you about the errors in the input.
+* [Another JSON Formatter](https://jsonformatter.org/){:target="_blank"} Another formatter with validation. It has also different conversion options.
 
 
 ### Reference links
