@@ -29,28 +29,13 @@ It's a data-interchange format. A syntax for storing and exchanging data. All JS
 
 ### Structures 
 Valid data types to use in JSON:
-String (It must be written in double quotes)
-Number
-Object
-Boolean
-Null
+* String (It must be written in double quotes)
+* Number
+* Object
+* Boolean
+* Null
 * Array
 
 ### Object
 Begins with { and ends with }. Inside of these curly braces there are key/value pairs separated by a comma ','.
 Each pair at the same time is divided by a colon ':'.
-Example of an object:
- 
-
-or by using bracket notation
-
-
-### Array
-Array: It's an ordered collection of values. It begins with a [ and ends with ] and its values are separated by a comma ','
-Example of an array:
-
-Note that the array above has different types of values (object, number, boolean ...)
-The structures can be nested. This means that an object can have as one of its values another object or maybe an array, an array can have
-another array inside of it, and so on.
-=== Examples ===
-- Link to real examples. Here you can see how big JSONs in real applicattions could be
