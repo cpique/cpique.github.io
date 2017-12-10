@@ -39,11 +39,11 @@ Valid data types to use in JSON:
 #### Object
 <p class="full-width"><img src="/public/image/2017-3-1-JSON_01.png" alt="Object example" /></p>
 
-Begins with { and ends with }. Inside of these curly braces there are key/value pairs separated by a comma ','.
-Each pair at the same time is divided by a colon ':'.
+Begins with `{` and ends with `}`. Inside of these curly braces there are key/value pairs separated by a comma `,`.
+Each pair at the same time is divided by a colon `:`.
 
 #### Array
-Array: It's an ordered collection of values. It begins with a [ and ends with ] and its values are separated by a comma ','
+Array: It's an ordered collection of values. It begins with a `[` and ends with `]` and its values are separated by a comma `,`
 Example of an array:
 <p class="full-width"><img src="/public/image/2017-3-1-JSON_02.png" alt="Array example"/></p>
 
