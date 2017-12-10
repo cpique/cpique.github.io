@@ -37,7 +37,7 @@ Valid data types to use in JSON:
 * Array
 
 ### Object
-<p class="full-width"><img src="/public/image/2017-3-1-JSON_01.png" alt="Object example" style="width:60%;" align="right"/></p>
+<p class="full-width"><img src="/public/image/2017-3-1-JSON_01.png" alt="Object example" /></p>
 
 Begins with { and ends with }. Inside of these curly braces there are key/value pairs separated by a comma ','.
 Each pair at the same time is divided by a colon ':'.
@@ -45,14 +45,40 @@ Each pair at the same time is divided by a colon ':'.
 ### Array
 Array: It's an ordered collection of values. It begins with a [ and ends with ] and its values are separated by a comma ','
 Example of an array:
-<p class="full-width"><img src="/public/image/2017-3-1-JSON_02.png" alt="Array example" style="width:60%;" align="right"/></p>
+<p class="full-width"><img src="/public/image/2017-3-1-JSON_02.png" alt="Array example"/></p>
 
 Note that the array above has different types of values (object, number, boolean ...)
 The structures can be nested. This means that an object can have as one of its values another object or maybe an array, an array can have
 another array inside of it, and so on.
 
 ### Examples 
-Here(https://goo.gl/Lw5tO2) you'll find real-life escenarios.
+[Here](https://goo.gl/Lw5tO2) you'll find real-life escenarios.
+
+### Tools 
+Formatters
+https://goo.gl/ZbC1fN --> Allows you to validate json text indicating you whether it is valid or not. If it is valid, it will petty print your text. If not, it will inform you about the errors in the input.
+https://goo.gl/8wffRD ---> Another formatter with validation. It has also different conversion options.
+
+### JavaScript
+JSON.stringify() & JSON.parse()
+
+JSON.parse() : parses a JSON string, constructing the JavaScript value or object described by the string
+A common use of JSON is to exchange data to/from a web server. When receiving data from a web server, the data is always a string.
+Because of that, it's a common practice parsing the data with JSON.parse(), transforming the data into a JavaScript object.
+<p class="full-width"><img src="/public/image/2017-3-1-JSON_03.png" alt="JSON parse utility"/></p>
+
+JSON.stringify() : converts a JavaScript value to a JSON string.
+When sending data to a web server, the data has to be a string.
+Convert a JavaScript object into a string with JSON.stringify().
+<p class="full-width"><img src="/public/image/2017-3-1-JSON_04.png" alt="JSON stringify utility"/></p>
+The line of code above produces a string ready to be sent to a server.
+
+
+### Reference links:
+https://goo.gl/O2WH
+https://goo.gl/EJuVgM
+https://goo.gl/ZbC1fN
+https://goo.gl/8wffRD
 
 
 
