@@ -60,10 +60,3 @@ We didn't just use our extension method, we are also using a extension method pr
 Pay attention on how the custom extension method is called from the string variable, as if it was a built-in method provided by the String class like toString().
 You can now run the Console and see if our custom method works properly.
 A very simple example that nevertheless lets us see the basics of an extension method.
-
-Tags: 
-<ul>
-  {% for tags in page.tags %}
-    <li>{{ tags }}</li>
-  {% endfor %}
-</ul>
