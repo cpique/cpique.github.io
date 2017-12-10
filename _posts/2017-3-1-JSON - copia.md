@@ -54,7 +54,19 @@ another array inside of it, and so on.
 ### Examples 
 [Here](https://goo.gl/Lw5tO2) you'll find real-life escenarios.
 
+### JavaScript
+`JSON.stringify()` & `JSON.parse()`
 
+* `JSON.parse()`: parses a JSON string, constructing the JavaScript value or object described by the string
+A common use of JSON is to exchange data to/from a web server. When receiving data from a web server, the data is always a string.
+Because of that, it's a common practice parsing the data with JSON.parse(), transforming the data into a JavaScript object.
+<p class="full-width"><img src="/public/image/2017-3-1-JSON_03.png" alt="JSON parse utility"/></p>
+
+* `JSON.stringify()`: converts a JavaScript value to a JSON string.
+When sending data to a web server, the data has to be a string.
+Convert a JavaScript object into a string with JSON.stringify().
+<p class="full-width"><img src="/public/image/2017-3-1-JSON_04.png" alt="JSON stringify utility"/></p>
+The line of code above produces a string ready to be sent to a server.
 
 Thanks for reading !
 
