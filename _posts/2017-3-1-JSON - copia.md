@@ -37,18 +37,14 @@ Valid data types to use in JSON:
 * Array
 
 ### Object
-var obj = 
-{
-    "name": "john",
-    "age": 26
-}
+
 Begins with { and ends with }. Inside of these curly braces there are key/value pairs separated by a comma ','.
 Each pair at the same time is divided by a colon ':'.
 
 ### Array
 Array: It's an ordered collection of values. It begins with a [ and ends with ] and its values are separated by a comma ','
 Example of an array:
-[{"name":"john"}, 26, 1, false, undefined, {"age":35}];
+
 Note that the array above has different types of values (object, number, boolean ...)
 The structures can be nested. This means that an object can have as one of its values another object or maybe an array, an array can have
 another array inside of it, and so on.
