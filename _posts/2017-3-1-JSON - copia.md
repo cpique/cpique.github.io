@@ -56,13 +56,13 @@ another array inside of it, and so on.
 
 ### Tools 
 Formatters
-[JSON Formatter and validator](https://goo.gl/ZbC1fN) --> Allows you to validate json text indicating you whether it is valid or not. If it is valid, it will petty print your text. If not, it will inform you about the errors in the input.
-[Another JSON Formatter](https://goo.gl/8wffRD) ---> Another formatter with validation. It has also different conversion options.
+[JSON Formatter and validator](https://goo.gl/ZbC1fN) Allows you to validate json text indicating you whether it is valid or not. If it is valid, it will petty print your text. If not, it will inform you about the errors in the input.
+[Another JSON Formatter](https://goo.gl/8wffRD) Another formatter with validation. It has also different conversion options.
 
 
 
 
-### Reference links:
+### Reference links
 [JSON org](https://goo.gl/O2WH)
 [W3schools](https://goo.gl/EJuVgM)
 [Formatter and validator](https://goo.gl/ZbC1fN)
