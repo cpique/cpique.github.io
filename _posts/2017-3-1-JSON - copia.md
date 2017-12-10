@@ -51,18 +51,4 @@ another array inside of it, and so on.
 === Examples ===
 - Link to real examples. Here you can see how big JSONs in real applicattions could be
 
-### Tools 
-Formatters
-https://goo.gl/ZbC1fN --> Allows you to validate json text indicating you whether it is valid or not. If it is valid, it will petty print your text. If not, it will inform you about the errors in the input.
-https://goo.gl/8wffRD ---> Another formatter with validation. It has also different conversion options.
-JavaScript
-JSON.stringify() & JSON.parse()
 
-JSON.parse() : parses a JSON string, constructing the JavaScript value or object described by the string
-A common use of JSON is to exchange data to/from a web server. When receiving data from a web server, the data is always a string.
-Because of that, it's a common practice parsing the data with JSON.parse(), and the data becomes a JavaScript object.
-
-JSON.stringify() : converts a JavaScript value to a JSON string
-When sending data to a web server, the data has to be a string.
-Convert a JavaScript object into a string with JSON.stringify().
-The line of code above produces a string ready to be sent to a server
