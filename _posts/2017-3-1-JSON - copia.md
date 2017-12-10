@@ -38,8 +38,7 @@ Valid data types to use in JSON:
 
 ### Object
 
-<img src="/public/image/2017-3-1-JSON/01.jpg" alt="JSON Example" style="width:100%;" />
-<img src="/public/image/merida-monumnet.jpg" alt="merida" style="width:100%;"/>
+<img src="/public/image/2017-3-1-JSON_01.jpg" alt="JSON Example" style="width:100%;" />
 
 Begins with { and ends with }. Inside of these curly braces there are key/value pairs separated by a comma ','.
 Each pair at the same time is divided by a colon ':'.
@@ -47,11 +46,15 @@ Each pair at the same time is divided by a colon ':'.
 ### Array
 Array: It's an ordered collection of values. It begins with a [ and ends with ] and its values are separated by a comma ','
 Example of an array:
+<img src="/public/image/2017-3-1-JSON_02.jpg" alt="JSON Example" style="width:100%;" />
 
 Note that the array above has different types of values (object, number, boolean ...)
 The structures can be nested. This means that an object can have as one of its values another object or maybe an array, an array can have
 another array inside of it, and so on.
-=== Examples ===
-- Link to real examples. Here you can see how big JSONs in real applicattions could be
+
+### Examples 
+Here(https://goo.gl/Lw5tO2) you'll find real-life escenarios.
+
+
 
 
