@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Photography: Barcelona
+title: Photography Barcelona
 tags: photos ph barcelona spain
 ---
 
