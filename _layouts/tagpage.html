@@ -5,7 +5,7 @@ layout: default
 <div class="post">
 
 <!-- Show archive if tag != post -->
-{% if post.tag != 'post' %}
+{% if page.tag != 'post' %}
   <h1 class="tag-title">Tag: {{ page.tag }}</h1>
 {% endif %}
 {% else %}
@@ -30,6 +30,6 @@ layout: default
 <hr>
 
 <!-- Show archive if tag != post -->
-{% if post.tag != 'post' %}
+{% if page.tag != 'post' %}
   {% include archive.html %}
 {% endif %}
