@@ -7,6 +7,9 @@ tags: csharp cookie cookies programming
 The purpose of this tutorial is give the reader an introduction to JSON.
 It provides definitions, what are the parts of a JSON, how to build one, useful tools and examples.
 
+[Click acá para ver la primera parte del post](https://cpique.github.io/2018/06/02/Cookies-intro-first-part/){:target="_blank"}
+
+****
 
 ### JSON (JavaScript Object Notation)
 First of all, it's not a programming language. It's rather just text, written with JavaScript object notation.
