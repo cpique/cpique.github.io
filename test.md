@@ -3,28 +3,12 @@ layout: page
 title: Test
 ---
 
-<div>
-
-<!-- Show archive if tag != post -->
-{% if page.tag == "post" %}
-  <h1 class="tag-title">Posts index by date</h1>
-{% else %}
-  <h1 class="tag-title">Tag: {{ page.tag }}</h1>
-{% endif %}
-
 <ul>
-{% for post in site.tags[page.tag] %}
-  {% if post.lang %}
-  <li lang="{{post.lang}}">
-  {% else %}
-  <li>
-  {% endif %}
-  	<a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }})<br>
-  	{{ post.description }}
-  	<!-- Tags: {{ post.tags | join: ", " }} -->
-  </li>
-{% endfor %}
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
 </ul>
-</div>
 
 <hr>
