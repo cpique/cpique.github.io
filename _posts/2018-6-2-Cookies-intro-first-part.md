@@ -26,7 +26,7 @@ Principales funciones:
 
 Las cookies son usadas por muchos propósitos, todos relacionados con ayudar a un sitio web a recordar y reconocer usuarios.
 
-<p class="full-width"><img src="/public/image/2018-6-2-Cookies-intro-first-part_02.png" alt="HTTP Cookie" /></p>
+<p class="full-width"><img src="/public/image/2018-6-2-Cookies-intro-first-part_02.PNG" alt="HTTP Cookie" /></p>
 
 Otra forma de ver a las cookies es como una manera de manera de realizar gestion del estado y mantener continuidad en una aplicacion web. Esto se debe a que, excepto por el breve tiempo en el que realmente intercambian información, tanto el browser como el server están desconectados. Cada petición que un usuario hace al servidor web es tratada de forma independiente de cualquier otra petición. 
 
