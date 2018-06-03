@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Introducción a las cookies 1ra parte
+title: Introducción a las cookies (Parte 1)
 tags: cookies cookie programming post
 ---
 
-En este artículo se intenta dar una introducción al tema de las cookies, definirlas y explicar su funcionamiento, listar los tipos de cookies que existen, repasar un poco la historia y tocar el tema de la privacidad que se relaciona de cerca con las cookies. En otro artículo se incluirá una 2da parte, con ejemplos prácticos de cómo implementar, crear y manipular cookies.
+En este artículo se intenta dar una introducción a las cookies, definirlas, explicar su funcionamiento, listar los tipos de cookies que existen, repasar un poco la historia y tocar el tema de la privacidad que se relaciona de cerca con las cookies. En otro artículo se incluirá una segunda parte, con ejemplos prácticos de cómo implementar, crear y manipular cookies.
 
 
 ## Definición
@@ -24,11 +24,14 @@ Principales funciones:
 * Intentos de spyware por parte de agencias de publicidad y otras compañías
 * Personalizar sitios web según preferencias del usuario
 
-Cookies are used for many purposes, all relating to helping the Web site remember users. 
 Las cookies son usadas por muchos propósitos, todos relacionados con ayudar a un sitio web a recordar y reconocer usuarios.
 
-Las cookies ayudan a sitios web a almacenar información acerca de los visitantes. Más generalmente, las cookies son una manera de realizar gestion del estado y mantener continuidad en una aplicacion web. Esto se debe a que, excepto por el breve tiempo en el que realmente intercambian información, tanto el browser como el server están desconectados. Cada petición que un usuario hace al servidor web es tratada de forma independiente de cualquier otra petición. 
-Por este motivo, es útil para los servidores web usar cookies, para reconocer a los usuarios que peticionan las páginas.
+![alt text][cookie]
+
+[cookie]: /public/image/2018-6-2-Cookies-intro-first-part_02.png "HTTP Cookie"
+
+
+Otra forma de ver a las cookies es como una manera de manera de realizar gestion del estado y mantener continuidad en una aplicacion web. Esto se debe a que, excepto por el breve tiempo en el que realmente intercambian información, tanto el browser como el server están desconectados. Cada petición que un usuario hace al servidor web es tratada de forma independiente de cualquier otra petición. 
 
 Las cookies pueden ser borradas, aceptadas o bloqueadas según se desee, configurando el navegador web.
 
@@ -54,41 +57,41 @@ Las cookies ya existían desde hace algún tiempo, solo que nunca se habían usa
 
 > La primera cookie fue creada por el programador [Lou Montulli](https://es.wikipedia.org/wiki/Lou_Montulli){:target="_blank"} en 1994, por entonces desarrollador de [Netscape Communications](https://es.wikipedia.org/wiki/Netscape_Communications_Corporation){:target="_blank"}.
 
+  
+Mitos :-1:
+* Las cookies son similares a gusanos y virus en que pueden borrar datos de los discos duros de los usuarios. :man_facepalming:
+* Las cookies son un tipo de spyware porque pueden leer información personal almacenada en el ordenador de los usuarios. 
+* Las cookies generan ventanas emergentes. 
+* Las cookies se utilizan para generar contenido basura. 
+* Las cookies solo se utilizan con fines publicitarios. 
 
-Mitos:
-* Las cookies son similares a gusanos y virus en que pueden borrar datos de los discos duros de los usuarios.
-* Las cookies son un tipo de spyware porque pueden leer información personal almacenada en el ordenador de los usuarios.
-* Las cookies generan ventanas emergentes.
-* Las cookies se utilizan para generar contenido basura.
-* Las cookies solo se utilizan con fines publicitarios.
 
-
-Las cookies son solo datos, no código-
+Las cookies son solo datos, no código.
 
 ****
 
 ## Tipos de cookies
 
 + Según su finalidad
-  - Técnicas: controlan el tráfico, identifican sesiones, almacenan contenidos...
-  - De personalización: idioma, tipo de navegador, configuración regional.
-  - De análisis: siguen el comportamiento de los usuarios para medir actividad del sitio.
-  - Publicitarias: permiten la gestión de espacios publicitarios que el editor incluyó en web.
-  - De publicidad comportamental: crean un perfil específico del usuario.
+  - Técnicas: Controlan el tráfico, identifican sesiones, almacenan contenidos...
+  - De personalización: Idioma, tipo de navegador, configuración regional.
+  - De análisis: Siguen el comportamiento de los usuarios para medir actividad del sitio.
+  - Publicitarias: Permiten la gestión de espacios publicitarios que el editor incluyó en web.
+  - De publicidad comportamental: Crean un perfil específico del usuario.
 
 
 + Según su duración
-  - _Session cookies o temporales: una vez que el usuario cierra el navegador desaparecen. Son las session cookies. Tiene un tiempo corto de vida.
-  - _Persistent cookies o permanentes: continúan una vez cerrado el navegador, pudiendo llegar a establecerse durante un tiempo ilimitado. se usan para rastrear al usuario guardando información sobre su comportamiento en un sitio web durante un período de tiempo determinado; las cookies persistentes pueden ser borradas limpiando los datos del navegador pero algunas tienen una fecha de expiración.
+  - _Session cookies o temporales_: Una vez que el usuario cierra el navegador desaparecen. Son las session cookies. Tiene un tiempo corto de vida.
+  - _Persistent cookies o permanentes_: Continúan una vez cerrado el navegador, pudiendo llegar a establecerse durante un tiempo ilimitado. se usan para rastrear al usuario guardando información sobre su comportamiento En un sitio web durante un período de tiempo determinado; las cookies persistentes pueden ser borradas limpiando los datos del navegador pero algunas tienen una fecha de expiración.
 
 + Según quién las gestione
-  - _1st party (1ª parte)_: establecidas por el mismo dominio que aparece en tu navegador.
-  - _3rd party (3ª parte)_: gestionadas por un tercero, normalmente son las compañías publicitarias las que administran este tipo de cookies. Su objetivo es controlar el comportamiento del usuario en varios sitios web.
+  - _1st party (1ª parte)_: Establecidas por el mismo dominio que aparece en tu navegador.
+  - _3rd party (3ª parte)_: Gestionadas por un tercero, normalmente son las compañías publicitarias las que administran este tipo de cookies. Su objetivo es controlar el comportamiento del usuario en varios sitios web.
 
 + Otras:
-  - _Secure cookies_: almacenan información cifrada para evitar que los datos almacenados en ellas sean vulnerables a ataques maliciosos de terceros. Se usan sólo en conexiones HTTPS.
-  - _Zoombie cookies_: se recrean a sí mismas luego de que son borradas. Esto quiere decir que el navegador realmente no tiene ningún poder sobre ellas porque continuarán regenerándose, de ahí el nombre tan creativo que tienen. Las cookies zombis se guardan en el dispositivo y no en el navegador, usualmente con la finalidad de que se pueda acceder a ellas sin importar qué navegador se esté usando. Esta misma característica puede convertirlas en una amenaza para la privacidad y seguridad del usuario, y en muchas ocasiones son usadas con fines ilegítimos y malintencionados.
-  - _HttpOnly cookies_: To prevent (XSS) attacks, HttpOnly cookies are inaccessible to JavaScript's Document.cookie API; they are only sent to the server. For example, cookies that persist server-side sessions don't need to be available to JavaScript, and the HttpOnly flag should be set.
+  - _Secure cookies_: Almacenan información cifrada para evitar que los datos almacenados en ellas sean vulnerables a ataques maliciosos de terceros. Se usan sólo en conexiones HTTPS.
+  - _Zoombie cookies_: Se recrean a sí mismas luego de que son borradas. Esto quiere decir que el navegador realmente no tiene ningún poder sobre ellas porque continuarán regenerándose, de ahí el nombre tan creativo que tienen. Las cookies zombis se guardan en el dispositivo y no en el navegador, usualmente con la finalidad de que se pueda acceder a ellas sin importar qué navegador se esté usando. Esta misma característica puede convertirlas en una amenaza para la privacidad y seguridad del usuario, y en muchas ocasiones son usadas con fines ilegítimos y malintencionados.
+  - _HttpOnly cookies_: Para prevenir ataques XSS, HttpOnly cookies son inaccesibles desde la API Document.cookie de JavaScript; sólo son enviadas al servidor. Por ejemplo, las cookies que persisten sesiones del lado del servidor no necesitan estar disponibles a código Javascript, y por lo tanto el flag _HttpOnly_ debe setearse en _true_.
 
 ****
 
@@ -99,7 +102,7 @@ Las compañías publicitarias utilizan cookies de terceros para realizar un segu
 La posibilidad de crear un perfil de los usuarios se ha considerado como una potencial amenaza a la privacidad, incluso cuando el seguimiento se limita a un solo dominio, pero especialmente cuando es a través de múltiples dominios mediante el uso de cookies de terceros. Por esa razón, algunos países tienen legislación sobre cookies.
 
 Algunos datos históricos:
-> El gobierno de los Estados Unidos definió estrictas reglas para la creación de cookies en el año 2000
+> 2000: El gobierno de los Estados Unidos definió estrictas reglas para la creación de cookies.
 
 > Se descubrió que la Oficina de Control de Drogas Nacional de la Casa Blanca utilizaba cookies para seguir a los usuarios que tras visitar su campaña anti-drogas, visitaban sitios relacionados con la fabricación o el uso de drogas. 
 
@@ -107,21 +110,18 @@ Algunos datos históricos:
 
 > 2005: Nuevamente Brandt descubrió que la Agencia de Seguridad Nacional había estado creando dos cookies persistentes en los ordenadores de sus visitantes
 
-Cualquiera puede actualmente configurar su navegador para que se deshabiliten las cookies de terceros, pero lo que se pide segun las reglases que sea al contrario, y que el usuario que quiera aceptar este tipo de cookies tenga que realizar una acción consciente para su activación.
+Cualquiera puede actualmente configurar su navegador para que se deshabiliten las cookies de terceros, pero lo que se pide según las reglas es que sea al contrario, y que el usuario que quiera aceptar este tipo de cookies tenga que realizar una acción consciente para su activación.
 
 ****
 
 ## TL;DR
 Una cookie HTTP, cookie web o cookie de navegador es una pequeña pieza de datos que un servidor envía a el navegador web del usuario. El navegador guarda estos datos y los envía de regreso junto con la nueva petición al mismo servidor. Las cookies se usan generalmente para decirle al servidor que dos peticiones tiene su origen en el mismo navegador web lo que permite, por ejemplo, mantener la sesión de un usuario abierta. Las cookies permiten recordar la información de estado en vista a que el protocolo HTTP es un protocolo sin estado.
 
-Se utilizan entre otras cosas, para:
--Primero, para reconocer al usuario, es decir, si alguien introduce su nombre y contraseña en una página web, la próxima vez que este acceda al sitio será reconocido automáticamente sin tener la necesidad de volver a identificarse.
--Otro uso de las cookies es para conocer el comportamiento de los usuarios, es decir, para personalizar la navegación y ofrecer publicidad relevante según la conducta del consumidor.
+Se utilizan entre otras cosas, para reconocer al usuario; es decir, si alguien introduce su nombre y contraseña en una página web, la próxima vez que este acceda al sitio será reconocido automáticamente sin tener la necesidad de volver a identificarse. Otro uso de las cookies es para conocer el comportamiento de los usuarios, es decir, para personalizar la navegación y ofrecer publicidad relevante según la conducta del consumidor.
 
-
-La primer cookie se creo en 1994 para mantener un carrito de compras disminuyendo los recursos utilizados del servidor.
-Hay muchos mitos asociados a las cookies, pero debe saberse que son solo datos y no codigo, y por lo tanto no pueden ser virus o spywares.
-Existen diferentes tipos de cookies segun su duracion, finalidad, y quien las gestione, entre otras clasificaciones.
+La primera cookie se creó en 1994 para mantener un carrito de compras disminuyendo los recursos utilizados del servidor.
+Hay muchos mitos asociados a las cookies, pero debe saberse que son sólo datos y no código, y por lo tanto no pueden ser virus o spywares.
+Existen diferentes tipos de cookies segun su duración, finalidad y quién las gestione, entre otras clasificaciones.
 
 Las cookies pueden ser borradas, aceptadas o bloqueadas según se desee, configurando el navegador web.
 
