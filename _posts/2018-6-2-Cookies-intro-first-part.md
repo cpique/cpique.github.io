@@ -52,11 +52,11 @@ La primera cookie se creó en 1994 cuando un empleado de Netscape Communications
 
 Las cookies ya existían desde hace algún tiempo, solo que nunca se habían usado en los navegadores.
 
-> La primera cookie fue creada por el programador [Lou Montulli](https://es.wikipedia.org/wiki/Lou_Montulli){:target="_blank"} en 1994, por entonces desarrollador de [Netscape Communications](https://es.wikipedia.org/wiki/Netscape_Communications_Corporation){:target="_blank"}.
+> La primera cookie fue creada por el programador <i class="em em-us"></i> [Lou Montulli](https://es.wikipedia.org/wiki/Lou_Montulli){:target="_blank"} en 1994, por entonces desarrollador de [Netscape Communications](https://es.wikipedia.org/wiki/Netscape_Communications_Corporation){:target="_blank"}.
 
   
-Mitos :-1:
-* Las cookies son similares a gusanos y virus en que pueden borrar datos de los discos duros de los usuarios. :man_facepalming:
+Mitos <i class="em em--1"></i>
+* Las cookies son similares a gusanos y virus en que pueden borrar datos de los discos duros de los usuarios. <i class="em em-expressionless"></i> 
 * Las cookies son un tipo de spyware porque pueden leer información personal almacenada en el ordenador de los usuarios. 
 * Las cookies generan ventanas emergentes. 
 * Las cookies se utilizan para generar contenido basura. 
@@ -99,9 +99,10 @@ Las compañías publicitarias utilizan cookies de terceros para realizar un segu
 La posibilidad de crear un perfil de los usuarios se ha considerado como una potencial amenaza a la privacidad, incluso cuando el seguimiento se limita a un solo dominio, pero especialmente cuando es a través de múltiples dominios mediante el uso de cookies de terceros. Por esa razón, algunos países tienen legislación sobre cookies.
 
 Algunos datos históricos:
-> 2000: El gobierno de los Estados Unidos definió estrictas reglas para la creación de cookies.
 
 > Se descubrió que la Oficina de Control de Drogas Nacional de la Casa Blanca utilizaba cookies para seguir a los usuarios que tras visitar su campaña anti-drogas, visitaban sitios relacionados con la fabricación o el uso de drogas. 
+
+> 2000: El gobierno de los Estados Unidos definió estrictas reglas para la creación de cookies.
 
 > 2002: Daniel Brandt averiguó que la CIA había estado definiendo cookies persistentes en ordenadores durante diez años. 
 
@@ -121,6 +122,8 @@ Hay muchos mitos asociados a las cookies, pero debe saberse que son sólo datos 
 Existen diferentes tipos de cookies segun su duración, finalidad y quién las gestione, entre otras clasificaciones.
 
 Las cookies pueden ser borradas, aceptadas o bloqueadas según se desee, configurando el navegador web.
+
+[Mirá la segunda parte del post](https://cpique.github.io/2018/06/04/Cookies-intro-second-part/){:target="_blank"} 
 
 ****
 
