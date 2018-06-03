@@ -57,7 +57,7 @@ I consider myself a self-learner person who always tries to be updated to keep u
 ## Languages
 * Spanish (Native)
 * English (Advanced)
-* Portuguese (Basic)
+* Danish (Basic)
 * Esperanto (Basic)
 
 ****
