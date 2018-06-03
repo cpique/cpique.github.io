@@ -3,15 +3,28 @@ layout: page
 title: Test
 ---
 
-<h2>Archive</h2>
-{% capture temptags %}
-  {% for tag in site.tags %}
-    {{ tag[1].size | plus: 1000 }}#{{ tag[0] }}#{{ tag[1].size }}
-  {% endfor %}
-{% endcapture %}
-{% assign sortedtemptags = temptags | split:' ' | sort | reverse %}
-{% for temptag in sortedtemptags %}
-  {% assign tagitems = temptag | split: '#' %}
-  {% capture tagname %}{{ tagitems[1] }}{% endcapture %}
-  <a class="no-underline" href="/tag/{{ tagname }}"><code class="highligher-rouge"><nobr>{{ tagname }}</nobr></code></a>
+<div>
+
+<!-- Show archive if tag != post -->
+{% if page.tag == "post" %}
+  <h1 class="tag-title">Posts index by date</h1>
+{% else %}
+  <h1 class="tag-title">Tag: {{ page.tag }}</h1>
+{% endif %}
+
+<ul>
+{% for post in site.tags[page.tag] %}
+  {% if post.lang %}
+  <li lang="{{post.lang}}">
+  {% else %}
+  <li>
+  {% endif %}
+  	<a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }})<br>
+  	{{ post.description }}
+  	<!-- Tags: {{ post.tags | join: ", " }} -->
+  </li>
 {% endfor %}
+</ul>
+</div>
+
+<hr>
