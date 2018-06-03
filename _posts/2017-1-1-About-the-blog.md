@@ -1,7 +1,7 @@
 ---
 layout: post
 title: About the blog
-tags: blog post
+tags: blog
 ---
 
 In this blog I’ll be posting one or two entries per month (at least that’s the idea) in Spanish or English indistinctly.

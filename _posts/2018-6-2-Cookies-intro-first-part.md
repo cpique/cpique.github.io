@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introducción a las cookies (Parte 1)
-tags: cookies cookie programming post
+tags: cookies cookie programming
 ---
 
 En este artículo se intenta dar una introducción a las cookies, definirlas, explicar su funcionamiento, listar los tipos de cookies que existen, repasar un poco la historia y tocar el tema de la privacidad que se relaciona de cerca con las cookies. En otro artículo se incluirá una segunda parte, con ejemplos prácticos de cómo implementar, crear y manipular cookies.

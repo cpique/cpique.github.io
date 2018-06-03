@@ -4,12 +4,7 @@ layout: default
 
 <div class="post">
 
-<!-- Show archive if tag != post -->
-{% if page.tag == "post" %}
-  <h1 class="tag-title">Posts index by date</h1>
-{% else %}
-  <h1 class="tag-title">Tag: {{ page.tag }}</h1>
-{% endif %}
+<h1 class="tag-title">Tag: {{ page.tag }}</h1>
 
 <ul>
 {% for post in site.tags[page.tag] %}
@@ -28,8 +23,4 @@ layout: default
 
 <hr>
 
-<!-- Show archive if tag != post -->
-{% if page.tag == "post" %}
-{% else %}
-    {% include archive.html %}
-{% endif %}
+{% include archive.html %}

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introducción a las cookies (Parte 2)
-tags: csharp cookie cookies programming post
+tags: csharp cookie cookies programming
 ---
 
 The purpose of this tutorial is give the reader an introduction to JSON.
