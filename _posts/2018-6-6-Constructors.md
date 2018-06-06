@@ -100,7 +100,7 @@ However, as soon as you define a custom constructor with any number of parameter
 
 > If you don't specify any constructors at all, a default constructor is provided by the compiler. This default constructor is a parameterless constructor with no body, which calls the parameterless constructor of the base class. If the base class has no accessible parameterless constructor (including a default one), you get a compile-time error if the derived class doesn't have any constructors - because the default constructor will implicitly try to call a parameterless constructor from the base type.
 
-> A nice shortcut: The VS IDE provides the *ctor* code snippet. When you type *ctor* and press the _Tab_ key twice, the IDE will automatically define a custom default constructor. You can then add custom parameters and implementation logic.
+> A nice shortcut: The VS IDE provides the `ctor` code snippet. When you type `ctor` and press the _Tab_ key twice, the IDE will automatically define a custom default constructor. You can then add custom parameters and implementation logic.
 
 ****
 
