@@ -211,11 +211,11 @@ Every constructor of every class other than plain object does this, either expli
 
 ## Static constructors
 
-A static constructor is a special constructor that is an ideal place to initialize the values of static data when the value is not known at compile time (e.g., you need to read in the value from an external file, read in the value from a database, generate a random number, or whatnot). The CLR calls all static constructors before the first use (and never calls them again for that instance of the application).
+A __static constructor__ is a special constructor that is an ideal place to initialize the values of static data when the value is not known at compile time (e.g., you need to read in the value from an external file, read in the value from a database, generate a random number, or whatnot). The CLR calls all static constructors before the first use (and never calls them again for that instance of the application).
 
 A few points of interest regarding static constructors:
 * A given class may define only a single static constructor. In other words, the static constructor cannot be overloaded.
-* A static constructor does not take an access modifier
+* A static constructor does not take an access modifier.
 * They are parameterless.
 * A static constructor executes exactly one time, regardless of how many objects of the type are created.
 * The runtime invokes the static constructor when it creates an instance of the class or before accessing the first static member invoked by the caller.
@@ -224,12 +224,12 @@ A few points of interest regarding static constructors:
 ****
 
 ## TL;DR
-A constructor (or more specifically an instance constructor) is a member that implements the actions required to initialize an instance of a class.
+A __constructor__ (or more specifically an instance constructor) is a member that implements the actions required to initialize an instance of a class.
 It's a special method of a class that is called indirectly when creating an object using the `new` keyword. Constructors never have a return value and are always named identically to the class they are constructing.
 
-There are two forms of _constructor initializer_ - one which calls a base class constructor with the `base` keyword and one which calls another constructor from within the class, using the _this_ keyword. There must always be a "chain" of constructors which runs constructors all the way up the class hierarchy. Every class in the hierarchy will have a constructor invoked, although some of those constructors may not explicitly appear in the code. Thus, there must be at least one constructor invoked in each class in the hierarchy.
+There are two forms of _constructor initializer_ -one which calls a base class constructor with the `base` keyword and one which calls another constructor from within the class, using the `this` keyword. There must always be a "chain" of constructors which runs constructors all the way up the class hierarchy. Every class in the hierarchy will have a constructor invoked, although some of those constructors may not explicitly appear in the code. Thus, there must be at least one constructor invoked in each class in the hierarchy.
 
-The __C#__ language spec refers to two types of constructors: instance constructors and static constructors. A static constructor it's useful to initialize static data at runtime. They're parameterless and don't have an access modifider.
+The __C#__ language spec refers to two types of constructors: instance constructors and static constructors. A __static constructor__ it's useful to initialize static data at runtime. They're parameterless and don't have an access modifider.
 
 
 ****
