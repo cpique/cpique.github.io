@@ -106,7 +106,7 @@ However, as soon as you define a custom constructor with any number of parameter
 
 ## `*this*` keyword and constructors 
 __C#__ supplies a `this` keyword that provides access to the current class instance.  
-One use of the `this` keyword is to design a class using a technique **termed constructor chaining**. This design pattern is helpful when you have a class that defines multiple constructors. Given that constructors often validate the incoming arguments to enforce various business rules, it can be quite common to find redundant validation logic within a class’s constructor set. 
+One use of the `this` keyword is to design a class using a technique termed **constructor chaining**. This design pattern is helpful when you have a class that defines multiple constructors. Given that constructors often validate the incoming arguments to enforce various business rules, it can be quite common to find redundant validation logic within a class’s constructor set. 
 
 With the goal of avoid redundant code statements in constructors, you can define a method in the class that will validate the incoming argument(s). If you were to do so, each constructor could make a call to this method before making the field assignment(s). While this approach does allow you to isolate the code you need to update when the business rules change, you still have redundancy as each constructor needs to invoke the method.
 
@@ -203,7 +203,7 @@ In this example, the constructor for the base class is called before the block f
 In a derived class, if a base-class constructor is not called explicitly by using the `base` keyword, the default constructor, if there is one, is called implicitly.
 If a base class does not offer a default constructor, the derived class must make an explicit call to a base constructor by using base.
 
-Importante note: There are two forms of _constructor initializer_ - one which calls a base class constructor and one which calls another constructor from within the class, using the this (...) syntax. There must always be a "chain" of constructors which runs constructors all the way up the class hierarchy. Every class in the hierarchy will have a constructor invoked, although some of those constructors may not explicitly appear in the code.
+Importante note: There are two forms of _constructor initializer_ - one which calls a base class constructor with the `base` keyword and one which calls another constructor from within the class, using the `this` keyword. There must always be a "chain" of constructors which runs constructors all the way up the class hierarchy. Every class in the hierarchy will have a constructor invoked, although some of those constructors may not explicitly appear in the code.
 Every constructor of every class other than plain object does this, either explicitly or implicitly. 
 
 
