@@ -7,7 +7,7 @@ tags: csharp cookie cookies programming
 Ya vimos en la [parte 1 del post](https://cpique.github.io/2018/06/02/Cookies-intro-first-part/){:target="_blank"} qué son las cookies, los tipos que existen, para qué se crearon y un poco de historia. Ahora veremos cómo crearlas a través de algunos ejemplos.
 
 ## Cómo crear una cookie
-Cuando se crea una __cookie__, se debe especificar al menos _nombre_ y _valor_ Cada cookie debe tener un nombre único para que pueda identificarse más tarde cuando se lea desde el browser.   Debido a que las cookies son almacenadas por nombre, nombrar dos cookies igual causaría que una sea sobreescrita.
+Cuando se crea una __cookie__, se debe especificar al menos _nombre_ y _valor_. Cada cookie debe tener un nombre único para que pueda identificarse más tarde cuando se lea desde el browser.   Debido a que las cookies son almacenadas por nombre, nombrar dos cookies igual causaría que una sea sobreescrita.
 Si no se setea la expiración de la cookie, esta es creada pero no es almacenada en el disco rígido del usuario. En cambio, la cookie es mantenida como parte de la información de sesión del usuario. Cuando el usuario cierra el browser, la cookie es descartada. Una __cookie no persistente__ como esta es útil para información que necesita ser almacenada por sólo un período corto de tiempo o que por razones de seguridad no debería ser escrita en el disco de la computadora del cliente. Por ejemplo, las cookies no persistentes son útiles si el usuario está trabajando desde una computadora pública, donde no querrías escribir la cookie en el disco.
 
 ### C sharp
@@ -38,14 +38,14 @@ document.cookie = "username=John Doe";
 También se puede agregar una fecha de expiración (en UTC). Por defecto, la cookie es eliminada cuando el browser se cierra:  
 
 {% highlight javascript %}
-document.cookie = "username=John Doe; expires=Thu, 18 Dec 2013 12:00:00 UTC";
+document.cookie = "username=John Doe; expires=Thu, 18 Dec 2023 12:00:00 UTC";
 {% endhighlight %}
 
 
 ### Cookies con más de un valor
-También se pueden almacenar múltiples pares _nombre-valor_ en una única cookie. Estos pares son llamados __subkeys__. Puedes usar subkeys por muchas razones. Primero, es conveniente poner toda la info similar o relacionada en una misma cookie. Además, debido a que la información esta en una única cookie, los atributos tales como la expiración aplican a toda la información (De la misma manera, si necesitas asignar diferentes fechas de expiración a diferentes tipos de información, deberías almacenar la info en cookies separadas). Usando una única cookie con subkeys, también usas menos de las 20 cookies que se le permiten al sitio
+También se pueden almacenar múltiples pares _nombre-valor_ en una única cookie. Estos pares son llamados __subkeys__. Puedes usar subkeys por muchas razones. Primero, es conveniente poner toda la info similar o relacionada en una misma cookie. Además, debido a que la información esta en una única cookie, los atributos tales como la expiración aplican a toda la información (De la misma manera, si necesitas asignar diferentes fechas de expiración a diferentes tipos de información, deberías almacenar la info en cookies separadas). Usando una única cookie con subkeys, también usás menos de las 20 cookies que se le permiten al sitio.
 
-Creando una cookie con dos subkeys  
+Creando una cookie con dos subkeys:      
 {% highlight csharp %}
 HttpCookie aCookie = new HttpCookie("userInfo");
 aCookie.Values["userName"] = "patrick";
@@ -65,7 +65,7 @@ Cuando un browser hace una petición al servidor, envía las cookies para ese se
 if(Request.Cookies["userName"] != null)
 {
     HttpCookie aCookie = Request.Cookies["userName"];
-    //Use cookie or its value (aCookie.Value) ...
+    var value = Server.HtmlEncode(aCookie.Value);
 }
 {% endhighlight %}
 
@@ -129,16 +129,16 @@ Los usuarios pueden limpiar las cookies en su computadora en cualquier momento. 
 [Deshabilitar cookies en Chrome](https://support.google.com/accounts/answer/61416?co=GENIE.Platform%3DDesktop&hl=es){:target="_blank"}    
 [Borrar cookies en Chrome](https://support.google.com/accounts/answer/32050?hl=es&co=GENIE.Platform=Desktop){:target="_blank"}    
 
-[Borrar cookies en Firefox](https://support.mozilla.org/es/kb/Borrar%20cookies){:target="_blank"}
+[Borrar cookies en Firefox](https://support.mozilla.org/es/kb/Borrar%20cookies){:target="_blank"}  
 [Deshabilitar cookies en Firefox](https://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies-sitios-web-rastrear-preferencias){:target="_blank"}
 
 
 ### Observar cookies
 Puedes ver desde la consola del navegador las cookies activas en la página:  
-Cookies en el navegador (Chrome):
+Las cookies que viajaron en el request y el response:   
 <p class="full-width"><img src="/public/image/2018-6-4-Cookies-intro-second-part_01.PNG" alt="Cookies browser" /></p>
 
-Las cookies que viajaron en el request y el response: 
+Cookies en el navegador (Chrome):  
 <p class="full-width"><img src="/public/image/2018-6-4-Cookies-intro-second-part_02.PNG" alt="Cookies in request and response" /></p>
 
 ****
