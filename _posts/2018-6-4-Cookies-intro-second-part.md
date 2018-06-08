@@ -65,11 +65,11 @@ Cuando un browser hace una petición al servidor, envía las cookies para ese se
 if(Request.Cookies["userName"] != null)
 {
     HttpCookie aCookie = Request.Cookies["userName"];
-    var value = Server.HtmlEncode(aCookie.Value);
+    var cookieValue = Server.HtmlEncode(aCookie.Value);
 }
 {% endhighlight %}
 
-Antes de tratar de obtener el valor de una cookie, nos debemos asegurar que la cookie existe; si la cookie no existe y tratamos de recuperar el valor, obtendremos una excepción del tipo `NullReferenceException`. De notar es además que se usó el método `HtmlEncode` para encodear los contenidos de la cookie antes de mostrarlo o usarlo.  
+Antes de tratar de obtener el valor de una cookie, nos debemos asegurar que la cookie existe; si la cookie no existe y tratamos de recuperar el valor, obtendremos una excepción del tipo `NullReferenceException`. De notar es además que se usó el método `HtmlEncode` para encodear el contenido de la cookie antes de mostrarlo o usarlo.  
 
 ### JavaScript
 Con JavaScript, las cookies pueden leerse de la siguiente manera:  
