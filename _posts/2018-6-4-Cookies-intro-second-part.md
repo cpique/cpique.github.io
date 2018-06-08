@@ -4,19 +4,21 @@ title: Introducción a las cookies (Parte 2)
 tags: csharp cookie cookies programming
 ---
 
-## Cómo crear una cookie
-When creating a cookie, you must specify at least name and value. Each cookie must have a unique name so that it can be identified later when reading it from the browser. Because cookies are stored by name, naming two cookies the same will cause one to be overwritten. 
-If you do not set the cookie's expiration, the cookie is created but it is not stored on the user's hard disk. Instead, the cookie is maintained as part of the user's session information. When the user closes the browser, the cookie is discarded. A non-persistent cookie like this is useful for information that needs to be stored for only a short time or that for security reasons should not be written to disk on the client computer. For example, non-persistent cookies are useful if the user is working on a public computer, where you do not want to write the cookie to disk.
+Ya vimos en la [parte 1 del post](https://cpique.github.io/2018/06/02/Cookies-intro-first-part/){:target="_blank"} qué son las cookies, los tipos que existen, para qué se crearon y un poco de historia. Ahora veremos cómo crearlas a través de algunos ejemplos.
 
-### `C#`
-Cookies are sent to the browser via the HttpResponse object that exposes a collection called Cookies. You can add cookies to the Cookies collection in a number of ways. The following example shows two methods to write cookies:
+## Cómo crear una cookie
+Cuando se crea una __cookie__, se debe especificar al menos _nombre_ y _valor_ Cada cookie debe tener un nombre único para que pueda identificarse más tarde cuando se lea desde el browser.   Debido a que las cookies son almacenadas por nombre, nombrar dos cookies igual causaría que una sea sobreescrita.
+Si no se setea la expiración de la cookie, esta es creada pero no es almacenada en el disco rígido del usuario. En cambio, la cookie es mantenida como parte de la información de sesión del usuario. Cuando el usuario cierra el browser, la cookie es descartada. Una __cookie no persistente__ como esta es útil para información que necesita ser almacenada por sólo un período corto de tiempo o que por razones de seguridad no debería ser escrita en el disco de la computadora del cliente. Por ejemplo, las cookies no persistentes son útiles si el usuario está trabajando desde una computadora pública, donde no querrías escribir la cookie en el disco.
+
+### C sharp
+Las cookies son enviadas al browser mediante el objeto `HttpResponse` que expone una colección llamada `Cookies`. Se pueden agregar cookies a la colección de múltiples maneras. A continuación se muestran dos métodos de escribir cookies:
 
 {% highlight csharp %}
 Response.Cookies["userName"].Value = "patrick";
 Response.Cookies["userName"].Expires = DateTime.Now.AddDays(1);
 {% endhighlight %}
 
-Another method to write cookies:  
+Otra forma:  
 {% highlight csharp %}
 HttpCookie aCookie = new HttpCookie("lastVisit");
 aCookie.Value = DateTime.Now.ToString();
@@ -24,15 +26,26 @@ aCookie.Expires = DateTime.Now.AddDays(1);
 Response.Cookies.Add(aCookie);
 {% endhighlight %}
 
-Both examples accomplish the same task, writing a cookie to the browser. In both methods, the expiration value must be of type DateTime. All cookie values are stored as strings, meaning that you will need to do a cast if you have another type to store.
+Ambos ejemplos logran la misma tarea, escribir una cookie en el navegador. En ambos métodos, el valor de expiración debe ser del tipo `DateTime`. Todos los valores de cookies son almacenados como _strings_, con lo que se necesitará hacer un casteo si se tiene otro tipo de dato a la hora de almacenar el valor en la cookie.
 
 ### JavaScript
+__JavaScript__ puede crear, leer y eliminar cookies con la propiedad `document.cookie`.  
+Ejemplo:  
+{% highlight javascript %}
+document.cookie = "username=John Doe";
+{% endhighlight %}
+
+También se puede agregar una fecha de expiración (en UTC). Por defecto, la cookie es eliminada cuando el browser se cierra:  
+
+{% highlight javascript %}
+document.cookie = "username=John Doe; expires=Thu, 18 Dec 2013 12:00:00 UTC";
+{% endhighlight %}
 
 
-### Cookies with more than one value
-You can also store multiple name-value pairs in a single cookie. The name-value pairs are referred to as subkeys. You might use subkeys for several reasons. First, it is convenient to put related or similar information into a single cookie. In addition, because all the information is in a single cookie, cookie attributes such as expiration apply to all the information. (Conversely, if you want to assign different expiration dates to different types of information, you should store the information in separate cookies.). By using a single cookie with subkeys, you use fewer of those 20 cookies that your site is allotted.
+### Cookies con más de un valor
+También se pueden almacenar múltiples pares _nombre-valor_ en una única cookie. Estos pares son llamados __subkeys__. Puedes usar subkeys por muchas razones. Primero, es conveniente poner toda la info similar o relacionada en una misma cookie. Además, debido a que la información esta en una única cookie, los atributos tales como la expiración aplican a toda la información (De la misma manera, si necesitas asignar diferentes fechas de expiración a diferentes tipos de información, deberías almacenar la info en cookies separadas). Usando una única cookie con subkeys, también usas menos de las 20 cookies que se le permiten al sitio
 
-Creating a cookie with two subkeys:
+Creando una cookie con dos subkeys  
 {% highlight csharp %}
 HttpCookie aCookie = new HttpCookie("userInfo");
 aCookie.Values["userName"] = "patrick";
@@ -46,7 +59,7 @@ Response.Cookies.Add(aCookie);
 
 ## Cómo leer cookies
 
-When a browser makes a request to the server, it sends the cookies for that server along with the request. In your ASP.NET applications, you can read the cookies using the HttpRequest object. The structure of the HttpRequest object is essentially the same as that of the HttpResponse object, so you can read cookies out of the HttpRequest object much the same way you wrote cookies into the HttpResponse object. Here are two examples of how to read cookies:
+Cuando un browser hace una petición al servidor, envía las cookies para ese servidor junto con el request. En las aplicaciones ASP.NET, puedes leer las cookies usando el objeto `HttpRequest`. La estructura de un objeto `HttpRequest` es escencialmente la misma que la del objeto `HttpResponse`, con lo cual puedes leer cookies de este objeto de una manera similar a las cuales las escribiste con el objeto `HttpResponse`. 2 ejemplos de cómo leer cookies:  
 
 {% highlight csharp %}
 if(Request.Cookies["userName"] != null)
@@ -56,12 +69,21 @@ if(Request.Cookies["userName"] != null)
 }
 {% endhighlight %}
 
-Before trying to get the value of a cookie, you should make sure that the cookie exists; if the cookie does not exist, you will get a NullReferenceException exception. Notice also that the HtmlEncode method was called to encode the contents of a cookie before displaying or using it.
+Antes de tratar de obtener el valor de una cookie, nos debemos asegurar que la cookie existe; si la cookie no existe y tratamos de recuperar el valor, obtendremos una excepción del tipo `NullReferenceException`. De notar es además que se usó el método `HtmlEncode` para encodear los contenidos de la cookie antes de mostrarlo o usarlo.  
+
+### JavaScript
+Con JavaScript, las cookies pueden leerse de la siguiente manera:  
+
+{% highlight javascript %}
+var x = document.cookie;
+{% endhighlight %}
+
+> `document.cookie` retornará todas las cookies en un string. Por ejemplo: `"cookie1=value; cookie2=value; cookie3=value"`;
 
 ****
 
 ## Cómo modificar y eliminar una cookie
-You cannot directly modify a cookie. Instead, changing a cookie consists of creating a new cookie with new values and then sending the cookie to the browser to overwrite the old version on the client. The following code example shows how you can change the value of a cookie that stores a count of the user's visits to the site:
+No se puede directamente modificar una cookie. En cambio, modificar una cookie consiste en crear una nueva cookie con nuevos valores y enviar la cookie al navegador para sobreescribir la versión vieja en el cliente. Básicamente sería crear una nueva cookie con mismo _name_ pero nuevo _value_.  El siguiente ejemplo muestra cómo puedes cambiar el valor de una cookie que almacena el contador de las visitas de un usuario al sitio:  
 {% highlight csharp %}
 int counter;
 if (Request.Cookies["counter"] == null)
@@ -77,8 +99,8 @@ Response.Cookies["counter"].Expires = DateTime.Now.AddDays(1);
 {% endhighlight %}
 
 ### Eliminando una cookie
-Deleting a cookie is a variation on modifying it. You cannot directly remove a cookie because the cookie is on the user's side. However, you can have the browser delete the cookie for you. The technique is to create a new cookie with the same name as the cookie to be deleted, but to set the cookie's expiration to a date earlier than today (the past). When the browser checks the cookie's expiration, the browser will discard the now-outdated cookie.  
-The following code example shows one way to delete all the cookies available to the application:
+Eliminar una cookie es una variación de modificarla. No podemos eliminar una cookie debido a que está del lado del usuario. Sin embargo, puedes hacer que el navegador elimine la cookie por ti. La técnica es crear una nueva cookie con el mismo nombre que la cookie a ser eliminada, pero setear la expiración de la cookie a una fecha anterior a hoy (el pasado). Cuando el navegador chequea la expiración de la cookie, el navegador la descartará.  
+El siguiente ejemplo muestra una manera de eliminar todas las cookies disponibles en la aplicación:  
 {% highlight csharp %}
 HttpCookie aCookie;
 string cookieName;
@@ -92,19 +114,36 @@ for (int i=0; i<limit; i++)
 }
 {% endhighlight %}
 
+#### JavaScript
+Eliminar una cookie en Javascript es muy simple. No se necesita especificar un valor cuando eliminas la cookie, simplemente setear el parámetro __expires__ a una fecha pasada:  
+{% highlight javascript %}
+document.cookie = "username=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+{% highlight javascript %}
 
 ****
 
 ## Cookies en el navegador
-Users can clear the cookies on their computer at any time. Even if you store cookies with long expiration times, a user might decide to delete all cookies, wiping out any settings you might have stored in cookies.
+Los usuarios pueden limpiar las cookies en su computadora en cualquier momento. Incluso si almacenas cookies con tiempo de expiración muy grandes, un usuario podría decidir eliminar todas las cookies, limpiando totalmente cualquier configuración que se haya almacenado en las cookies.
+
+### Deshabilitar cookies (no recomendado)
+[Deshabilitar cookies en Chrome](https://support.google.com/accounts/answer/61416?co=GENIE.Platform%3DDesktop&hl=es){:target="_blank"}    
+[Borrar cookies en Chrome](https://support.google.com/accounts/answer/32050?hl=es&co=GENIE.Platform=Desktop){:target="_blank"}    
+
+[Borrar cookies en Firefox](https://support.mozilla.org/es/kb/Borrar%20cookies){:target="_blank"}
+[Deshabilitar cookies en Firefox](https://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies-sitios-web-rastrear-preferencias){:target="_blank"}
 
 
-### Cómo ver las cookies actuales
+### Observar cookies
+Puedes ver desde la consola del navegador las cookies activas en la página:  
+Cookies en el navegador (Chrome):
+<p class="full-width"><img src="/public/image/2018-6-4-Cookies-intro-second-part_01.PNG" alt="Cookies browser" /></p>
 
-### Configurar navegador
+Las cookies que viajaron en el request y el response: 
+<p class="full-width"><img src="/public/image/2018-6-4-Cookies-intro-second-part_02.PNG" alt="Cookies in request and response" /></p>
 
 ****
 
 ### Reference links
 [MSDN](https://msdn.microsoft.com/en-us/library/ms178194.aspx#CodeExamples){:target="_blank"}  
-[Developer Mozilla](https://developer.mozilla.org/es/docs/Web/HTTP/Cookies){:target="_blank"}   
+[Developer Mozilla](https://developer.mozilla.org/es/docs/Web/HTTP/Cookies){:target="_blank"}  
+[W3Schools](https://www.w3schools.com/Js/js_cookies.asp){:target="_blank"}
