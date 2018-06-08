@@ -138,10 +138,10 @@ Puedes ver desde la consola del navegador las cookies activas en la página:
 Las cookies que viajaron en el request y el response:   
 <p class="full-width"><img class="full-width" src="/public/image/2018-6-4-Cookies-intro-second-part_01.PNG" alt="Cookies browser" /></p>
 [Ver imagen en tamaño completo](https://cpique.github.io/public/image/2018-6-4-Cookies-intro-second-part_01.PNG){:target="_blank"}
-
+<br /><br />
 Cookies en el navegador (Chrome):  
 <p class="full-width"><img class="full-width" src="/public/image/2018-6-4-Cookies-intro-second-part_02.PNG" alt="Cookies in request and response" /></p>
-[Ver imagen en tamaño completo](https://cpique.github.io/public/image/2018-6-4-Cookies-intro-second-part_02.PNG){}
+[Ver imagen en tamaño completo](https://cpique.github.io/public/image/2018-6-4-Cookies-intro-second-part_02.PNG){:target="_blank"}
 ****
 
 ### Reference links
