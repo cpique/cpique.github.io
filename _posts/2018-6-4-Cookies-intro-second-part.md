@@ -118,7 +118,7 @@ for (int i=0; i < limit; i++)
 Eliminar una cookie en Javascript es muy simple. No se necesita especificar un valor cuando eliminas la cookie, simplemente setear el parámetro __expires__ a una fecha pasada:  
 {% highlight javascript %}
 document.cookie = "username=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-{% highlight javascript %}
+{% endhighlight %}
 
 ****
 
