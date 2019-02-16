@@ -1,29 +1,71 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
-    detail: Company A
+    detail: Softvision
     i18n: company_a
   desc:
-    detail: I worked at Company A ...
+    detail: I started to work at Softvision recently in the Buenos Aires Studio
     i18n: company_a_desc
   date:
-    detail: Apr. 2016
+    detail: Feb. 2019 to present
     i18n: company_a_date
   job:
-    detail: CTO
+    detail: Senior Software Engineer
     i18n: company_a_job
   icon: fa-plus-square
 
 - name:
-    detail: Company B
+    detail: Algeiba
+    i18n: company_a
+  desc:
+    detail: Migration and development of dashboard web app using .NET technologies. Use of modern technologies (.NET Core 2.2, Angular 7, Docker)
+    i18n: Nov. 2018 - Feb. 2019
+  date:
+    detail: Apr. 2016
+    i18n: company_a_date
+  job:
+    detail: Technical Specialist
+    i18n: company_a_job
+  icon: fa-plus-square
+
+- name:
+    detail: NEORIS
+    i18n: company_a
+  desc:
+    detail: Development of LoginSDK, WebResources, TPInjector web apps using .NET technologies. Full stack web development using .NET technologies. In-house training to future employees.
+    i18n: company_a_desc
+  date:
+    detail: Feb. 2018 - Nov. 2018
+    i18n: company_a_date
+  job:
+    detail: Experienced Developer
+    i18n: company_a_job
+  icon: fa-plus-square
+
+- name:
+    detail: NEORIS
+    i18n: company_a
+  desc:
+    detail: Development of GCM, TForm, SSO web apps using .NET technologies. Full stack web development using .NET technologies.
+    i18n: company_a_desc
+  date:
+    detail: Nov. 2015 - Jan. 2018
+    i18n: company_a_date
+  job:
+    detail: Software Developer
+    i18n: company_a_job
+  icon: fa-plus-square
+
+- name:
+    detail: NEORIS
     i18n: company_b
   desc:
-    detail: I worked at Company B ...
+    detail: Development and maintenance of portals and media for Telecom, Arnet and Personal.
     i18n: company_b_desc
   date:
-    detail: Jun. 2015
+    detail: Sep. 2014 - Oct. 2015
     i18n: company_b_date
   job:
-    detail: Full Stack Developer
+    detail: SD Analyst
     i18n: company_b_job
   icon: fa-plus-square
