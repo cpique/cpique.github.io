@@ -29,10 +29,10 @@ author:  # change following line to your infomation.
     - name: fa-linux
     - name: icon-apache
   desc: >
-  This is a very long sentence
-  that spans several lines in the YAML
-  but which will be rendered as a string
-  without carriage returns. 
+    This is a very long sentence
+    that spans several lines in the YAML
+    but which will be rendered as a string
+    without carriage returns. 
   # Describe yourself.
 #My first contact with programming was at 18, at the university, and I have been doing professionally since I was 24.
 #My main objective is to participate in challenging professional projects, where I can not only show my knowledge and provide quality solutions
