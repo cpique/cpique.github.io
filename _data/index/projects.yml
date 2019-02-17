@@ -11,7 +11,7 @@
 
 - name: GCM
   i18n: google
-  url: https://google.com
+  url: 
   img: /static/assets/img/landing/projects/gcm.png
   desc: | 
     It allows companies to deliver massive communications to their customers by 
@@ -21,7 +21,7 @@
   
 - name: TForm
   i18n: google
-  url: https://google.com
+  url: 
   img: /static/assets/img/landing/projects/tform.png
   desc: | 
    It allows generation of dynamic forms with html or html5 basic elements as well as the 
@@ -30,7 +30,7 @@
   
 - name: SSO
   i18n: google
-  url: https://google.com
+  url: 
   img: /static/assets/img/landing/projects/sso.png
   desc: |
     It has an authentication procedure that enables the user to access multiple systems with 
@@ -38,7 +38,7 @@
   
 - name: LoginSDK
   i18n: google
-  url: https://google.com
+  url: 
   img: /static/assets/img/landing/projects/loginSDK.png
   desc: |
    An intermediary application for manage multiple CRMs in a company. It manages 
@@ -47,6 +47,6 @@
  
 - name: Dashboard
   i18n: google
-  url: https://google.com
+  url: 
   img: /static/assets/img/landing/projects/dashboard.png
   desc: Website that provides several reports, timetables and assignment of tasks for teams.
