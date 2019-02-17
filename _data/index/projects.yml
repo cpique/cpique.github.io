@@ -20,3 +20,21 @@
   url: https://google.com
   img: /static/assets/img/landing/google.png
   desc: This is another project.
+  
+- name: Google2
+  i18n: google
+  url: https://google.com
+  img: /static/assets/img/landing/google.png
+  desc: This is another test project.
+  
+- name: Google3
+  i18n: google
+  url: https://google.com
+  img: /static/assets/img/landing/google.png
+  desc: This is yet another project.
+  
+- name: Google4
+  i18n: google
+  url: https://google.com
+  img: /static/assets/img/landing/google.png
+  desc: And a final one
