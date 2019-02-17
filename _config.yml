@@ -29,15 +29,13 @@ author:  # change following line to your infomation.
     - name: fa-linux
     - name: icon-apache
   desc: >
-    This is a very long sentence
-    that spans several lines in the YAML
-    but which will be rendered as a string
-    without carriage returns. 
-  # Describe yourself.
-#My first contact with programming was at 18, at the university, and I have been doing professionally since I was 24.
-#My main objective is to participate in challenging professional projects, where I can not only show my knowledge and provide quality solutions
-#to existing problems or needs, but also grow professionally by learning from my colleagues and using and exploring state-of-the-art technologies. 
-#Hobbies: photography, football, electronic music, sci-fi, reading, running, astronomy. 
+    I'm a software engineer based in Buenos Aires, Argentina. 
+    My first contact with programming was at 18, at the university, and I have been doing it professionally since I was 24. 
+    My main objective is to participate in challenging professional projects, 
+    where I can not only show my knowledge and provide quality solutions 
+    to existing problems or needs, but also grow professionally by learning  
+    from my colleagues and using and exploring state-of-the-art technologies. 
+    Hobbies: photography, football, electronic music, sci-fi, reading, running, astronomy. 
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
