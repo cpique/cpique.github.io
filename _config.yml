@@ -11,13 +11,13 @@ img_path: /static/assets/img/blog  # url should be '/homepage/static/assets/img/
 
 # author -- index page "about me" section
 author:  # change following line to your infomation.
-  name: GitHub  # Be used at blog posts' author.
+  name: Cristian Piqué  # Be used at blog posts' author.
   first_name: Cristian  # Be used at index page about me section.
-  last_name: Pique  # Be used at index page about me section.
+  last_name: Piqué  # Be used at index page about me section.
   avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
   github_username: cpique  # Leave blank if you don't have now
-  linkedin_id: jarrekk # Leave blank if you don't have now
-  facebook_username: jiakunnj  # Leave blank if you don't have now
+  linkedin_id: me-cristianpique # Leave blank if you don't have now
+  facebook_username: cristian.pique.1  # Leave blank if you don't have now
   twitter_username: cristianpique  # Leave blank if you don't have now
   email: cristian.andres.pique@gmail.com  # Leave blank if you don't have now
   cv: http://cv.jarrekk.com  # An online CV can be printed as PDF, leave blank if you don't have now
@@ -28,16 +28,16 @@ author:  # change following line to your infomation.
   skill_icon2:
     - name: fa-linux
     - name: icon-apache
-  desc: Introduce myself will be here.  # Describe yourself.
+  desc: I'm a software engineer based in Buenos Aires, Argentina. My first contact with programming was at 18, at the university, and I have been doing professionally since I was 24. My main objective is to participate in challenging professional projects, where I can not only show my knowledge and provide quality solutions to existing problems or needs, but also grow professionally by learning from my colleagues and using and exploring state-of-the-art technologies. Hobbies: photography, football, electronic music, sci-fi, reading, running, astronomy.  # Describe yourself.
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
-  name: jalpc
+  name: cpique
 
 # analytics
 ## google analytics
 ga:  # if you wanna this feature, go to https://www.google.com/analytics/ to get your configuration; if not, comment following line.
-  id: UA-93473370-3
+  id: UA-110928553-1
 
 ## google optimize
 go:
@@ -48,7 +48,7 @@ gio:  # if you wanna this feature, go to https://www.growingio.com/ to get your 
   # id:
 
 ## donation
-donation: on  # type 'on'/'off' to choice display donation button at post page or not
+donation: off  # type 'on'/'off' to choice display donation button at post page or not
 
 ## carousels
 index_carousel: on  # index page carousel switch

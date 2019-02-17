@@ -69,3 +69,17 @@
     detail: SD Analyst
     i18n: company_b_job
   icon: fa-plus-square
+  
+- name:
+    detail: Universidad Tecnológica Nacional
+    i18n: company_b
+  desc:
+    detail: Systems Information Engineering
+    i18n: company_b_desc
+  date:
+    detail: Mar. 2008 - Dec. 2016
+    i18n: company_b_date
+  job:
+    detail: Software Engineer
+    i18n: company_b_job
+  icon: fa-graduation-cap
