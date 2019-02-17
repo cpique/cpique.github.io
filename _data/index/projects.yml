@@ -12,17 +12,17 @@
 - name: GCM
   i18n: google
   url: https://google.com
-  img: /static/assets/img/landing/google.png
+  img: /static/assets/img/landing/projects/gcm.png
   desc: | 
-    This web app allows companies to deliver massive communication to their customers by 
-    a variety of channels, mostly email and SMS. It provides email marketing campaigns 
+    It allows companies to deliver massive communications to their customers by 
+    a variety of channels. It provides email marketing campaigns 
     manager, reports, statistics of deliveries, blacklist and whitelist of customers, SMTP 
     configuration and a back office for admins.
   
 - name: TForm
   i18n: google
   url: https://google.com
-  img: /static/assets/img/landing/google.png
+  img: /static/assets/img/landing/projects/tform.png
   desc: | 
    It allows generation of dynamic forms with html or html5 basic elements as well as the 
    possibility of create custom and more complex elements. The forms then are embedded 
@@ -31,7 +31,7 @@
 - name: SSO
   i18n: google
   url: https://google.com
-  img: /static/assets/img/landing/google.png
+  img: /static/assets/img/landing/projects/sso.png
   desc: |
     It has an authentication procedure that enables the user to access multiple systems with 
     a single identification instance.
@@ -39,7 +39,7 @@
 - name: LoginSDK
   i18n: google
   url: https://google.com
-  img: /static/assets/img/landing/google.png
+  img: /static/assets/img/landing/projects/loginSDK.png
   desc: |
    An intermediary application for manage multiple CRMs in a company. It manages 
    authentication process implementing a standards compliant OAuth 2.0 server 
@@ -48,5 +48,5 @@
 - name: Dashboard
   i18n: google
   url: https://google.com
-  img: /static/assets/img/landing/google.png
+  img: /static/assets/img/landing/projects/dashboard.png
   desc: Website that provides several reports, timetables and assignment of tasks for teams.
