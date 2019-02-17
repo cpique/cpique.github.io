@@ -1,40 +1,52 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
-- name: Jalpc
-  i18n: jalpc
-  gh_user: jarrekk
-  repo: Jalpc
-  img: /static/assets/img/landing/jekyll.png
-  desc: This project is my project. I use javescript to get repo's information all my repos have only one request.
 
-- name: Python
-  i18n: cpython
-  gh_user: python
-  repo: cpython
-  img: /static/assets/img/landing/python.png
-  desc: This project is other's project. I use another request to get repo's information.
+#- name: GCM
+#  i18n: jalpc
+#  gh_user: jarrekk
+#  repo: Jalpc
+#  img: /static/assets/img/landing/jekyll.png
+#  desc: This project is my project. I use javescript to get repo's information all my repos have only one request.
 
-- name: Google
+- name: GCM
   i18n: google
   url: https://google.com
   img: /static/assets/img/landing/google.png
-  desc: This is another project.
+  desc: | 
+    This web app allows companies to deliver massive communication to their customers by 
+    a variety of channels, mostly email and SMS. It provides email marketing campaigns 
+    manager, reports, statistics of deliveries, blacklist and whitelist of customers, SMTP 
+    configuration and a back office for admins.
   
-- name: Google2
+- name: TForm
   i18n: google
   url: https://google.com
   img: /static/assets/img/landing/google.png
-  desc: This is another test project.
+  desc: | 
+   It allows generation of dynamic forms with html or html5 basic elements as well as the 
+   possibility of create custom and more complex elements. The forms then are embedded 
+   in web pages, centralizing the filling out of the forms.
   
-- name: Google3
+- name: SSO
   i18n: google
   url: https://google.com
   img: /static/assets/img/landing/google.png
-  desc: This is yet another project.
+  desc: |
+    It has an authentication procedure that enables the user to access multiple systems with 
+    a single identification instance.
   
-- name: Google4
+- name: LoginSDK
   i18n: google
   url: https://google.com
   img: /static/assets/img/landing/google.png
-  desc: And a final one
+  desc: |
+   An intermediary application for manage multiple CRMs in a company. It manages 
+   authentication process implementing a standards compliant OAuth 2.0 server 
+   TPInjector
+ 
+- name: Dashboard
+  i18n: google
+  url: https://google.com
+  img: /static/assets/img/landing/google.png
+  desc: Website that provides several reports, timetables and assignment of tasks for teams.
