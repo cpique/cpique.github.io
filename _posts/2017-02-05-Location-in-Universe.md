@@ -72,4 +72,4 @@ Very similar, to the point that in that Universe you would have a different eye 
 
 The dimension of the Universe is always a reminder of how small and unimportant we are.
 
-[Full image](https://upload.wikimedia.org/wikipedia/commons/f/f5/Earth%27s_Location_in_the_Universe_VERTICAL_%28JPEG%29.jpg)
+[Full image](https://upload.wikimedia.org/wikipedia/commons/f/f5/Earth%27s_Location_in_the_Universe_VERTICAL_%28JPEG%29.jpg){:target="_blank"}
