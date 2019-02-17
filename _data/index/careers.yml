@@ -19,9 +19,9 @@
     i18n: company_a
   desc:
     detail: Migration and development of dashboard web app using .NET technologies. Use of modern technologies (.NET Core 2.2, Angular 7, Docker)
-    i18n: Nov. 2018 - Feb. 2019
+    i18n: company_a_desc
   date:
-    detail: Apr. 2016
+    detail: Nov. 2018 - Feb. 2019
     i18n: company_a_date
   job:
     detail: Technical Specialist
