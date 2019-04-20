@@ -2,5 +2,5 @@
 
 label: Ability
 id : cs
-aspects: Git & TFS, .NET Framework, C#, HTML-CSS-JS, Xamarin, JS frameworks, Python, Team work, Motivation, Spanish, English, Web APIs, Databases
-percentage: 75, 80, 85, 85, 30, 70, 20, 75, 95, 100, 70, 75, 75
+aspects: Git & TFS, .NET FWK / Core, C#, HTML/CSS/JS, Xamarin, Angular, Python, Team work, Motivation, F#, PWA, REST APIs, Databases
+percentage: 75, 80, 85, 85, 30, 70, 20, 75, 95, 60, 30, 75, 75

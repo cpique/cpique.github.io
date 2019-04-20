@@ -23,8 +23,10 @@
             <ul class="list-inline social-icon">
                 <li><a href="{{ link.website }}" target="_blank"><i class="fa fa-link"></i></a>
                 </li>
+                {% if loopindex == 2 %}
                 <li><a href="mailto:{{ link.email }}"><i class="fa fa-envelope-o"></i></a>
                 </li>
+                {% endif %}
             </ul>
         </div>
         </div>

@@ -6,17 +6,17 @@
 - name: Python
   href: /python/
 
-- name: Linux
-  href: /linux/
+- name: Angular
+  href: /angular/
 
-- name: HTML
-  href: /html/
+- name: NoSQL
+  href: /nosql/
 
-- name: Database
-  href: /database/
+- name: NET
+  href: /net/
 
-- name: Mac
-  href: /mac/
+- name: PWA
+  href: /pwa/
 
 - name: Life
   href: /life/

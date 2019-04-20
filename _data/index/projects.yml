@@ -24,9 +24,9 @@
   url: 
   img: /static/assets/img/landing/projects/tform.png
   desc: | 
-   It allows generation of dynamic forms with html or html5 basic elements as well as the 
-   possibility of create custom and more complex elements. The forms then are embedded 
-   in web pages, centralizing the filling out of the forms.
+   It allows generation of dynamic forms with HTML or HTML5 basic elements as well as the
+   possibility of creating custom and more complex elements. Then, the forms are embedded 
+   in web pages, centralizing the filling out them.
   
 - name: SSO
   i18n: google
@@ -41,12 +41,11 @@
   url: 
   img: /static/assets/img/landing/projects/loginSDK.png
   desc: |
-   An intermediary application for manage multiple CRMs in a company. It manages 
-   authentication process implementing a standards compliant OAuth 2.0 server 
-   TPInjector
+   An intermediary application to manage multiple CRMs in a company. It manages
+   the authentication process implementing a standards compliant OAuth 2.0 server
  
 - name: Dashboard
   i18n: google
   url: 
   img: /static/assets/img/landing/projects/dashboard.png
-  desc: Website that provides several reports, timetables and assignment of tasks for teams.
+  desc: A website that provides several reports, timetables, and assignment of tasks for teams.
