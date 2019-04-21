@@ -14,7 +14,6 @@ Before starting, you should know that in C# you can work with 3 different types:
 'Value types' (int, char, float, double, bool and so on) are stored in the stack, whereas 'reference types' are stored in the managed heap.
 
 <br>
-<br>
 
 ### Definition
 
@@ -25,7 +24,6 @@ Boxing can be formally defined as the process of explicitly assigning a value ty
 'Unboxing', the opposite process, extracts the value type from the object. 
 It converts the value held in the object reference back into a corresponding value type on the stack.
 
-<br>
 <br>
 
 ---
@@ -41,16 +39,8 @@ int j = (int)o;   // unboxing
 ```
 
 <br>
-<br>
 
 ### Comparative table
-
-| Boxing                                        | Unboxing                                      |
-|-----------------------------------------------|-----------------------------------------------|
-|  Implicit conversion                          | Explicit                                      |
-| From a value type to a reference type         | From a reference type to a value type |
-| The value is stored on the heap               | The value is stored on the stack              |
-|                                               |                                               |
 
 Markdown | Less | Pretty
 --- | --- | ---
@@ -67,7 +57,6 @@ Markdown | Less | Pretty
 You should avoid when possible classes or structs with methods and properties that can cause implicit boxing when used with value types. 
 You can determine them by looking at their signatures: if a method takes an argument of type 'object' or an interface then the value type instance will be boxed.
 
-<br>
 <br>
 
 ### Reference links
