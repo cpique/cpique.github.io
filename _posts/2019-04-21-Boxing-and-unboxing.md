@@ -24,7 +24,6 @@ Boxing can be formally defined as the process of explicitly assigning a value ty
 'Unboxing', the opposite process, extracts the value type from the object. 
 It converts the value held in the object reference back into a corresponding value type on the stack.
 
-<br>
 
 ---
 
@@ -38,17 +37,28 @@ object o = i;     // boxing
 int j = (int)o;   // unboxing
 ```
 
-<br>
 
 ### Comparative table
 
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
+<table>
+  <tr>
+    <td>Boxing</td>
+    <td>Unboxing</td>
+  </tr>
+  <tr>
+    <td>From value type to reference type</td>
+    <td>From reference type to value type</td>
+  </tr>
+  <tr>
+    <td>After boxing, value is stored on the heap</td>
+    <td>After unboxing, value is on the stack</td>
+  </tr>
+  <tr>
+    <td>Implicit</td>
+    <td>Explicit</td>
+  </tr>
+</table>
 
-<br>
-<br>
 
 ---
 
@@ -57,7 +67,6 @@ Markdown | Less | Pretty
 You should avoid when possible classes or structs with methods and properties that can cause implicit boxing when used with value types. 
 You can determine them by looking at their signatures: if a method takes an argument of type 'object' or an interface then the value type instance will be boxed.
 
-<br>
 
 ### Reference links
 
