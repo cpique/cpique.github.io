@@ -9,7 +9,7 @@ categories: [Net]
 icon: fa-dot-circle-o
 ---
 
-Before starting, you should know that in C# you can work with 3 different types: value, reference and pointer types.
+Before starting, you should know that in C# you can work with 3 different types: *value*, *reference* and *pointer* types.
 'Boxing' and 'unboxing' are processes that work with value and reference types.
 'Value types' (int, char, float, double, bool and so on) are stored in the stack, whereas 'reference types' are stored in the managed heap.
 
@@ -22,6 +22,9 @@ Boxing can be formally defined as the process of explicitly assigning a value ty
 'Unboxing', the opposite process, extracts the value type from the object. 
 It converts the value held in the object reference back into a corresponding value type on the stack.
 
+<br>
+<br>
+
 ### Example
 
 An example extracted from MSDN that shows boxing and unboxing in a few lines:
@@ -32,21 +35,28 @@ object o = i;     // boxing
 int j = (int)o;   // unboxing
 ```
 
+<br>
+<br>
+
 ### Comparative table
 
-| Boxing | Unboxing |
-|-------|--------|---------|
-| From value type to reference type | From reference type to value type |
-| After boxing, value is stored on the heap | After unboxing, value is on the stack |
-| Implicit | Explicit |
+| Boxing                                        | Unboxing                                      |
+|-----------------------------------------------|-----------------------------------------------|
+|  Implicit conversion                          | Explicit                                      |
+| From a value type to a reference type         | From a reference type to a value type |
+| The value is stored on the heap               | The value is stored on the stack              |
+|                                               |                                               |
 
-
+<br>
+<br>
 
 ### Performance
 
 You should avoid when possible classes or structs with methods and properties that can cause implicit boxing when used with value types. 
 You can determine them by looking at their signatures: if a method takes an argument of type 'object' or an interface then the value type instance will be boxed.
 
+<br>
+<br>
 
 ### Reference links
 
