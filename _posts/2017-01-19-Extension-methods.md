@@ -5,7 +5,7 @@ tags: [csharp,extension-methods,programming]
 date:   2017-01-19
 desc: "What are and how to create extension methods"
 keywords: "c#,extension methods,programming,method,visual studio"
-categories: [HTML]
+categories: [NET]
 icon: icon-html
 ---
 

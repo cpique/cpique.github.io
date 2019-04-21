@@ -5,7 +5,7 @@ tags: [cookies,cookie,programming]
 date: 2018-06-02
 desc: "Intro to cookies P1"
 keywords: "cookies,cookie,http,software"
-categories: [HTML]
+categories: []
 icon: icon-html
 ---
 

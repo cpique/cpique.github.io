@@ -5,7 +5,7 @@ tags: [csharp,cookie,cookies,programming]
 date: 2018-06-04
 desc: "Intro to cookies P2"
 keywords: "cookies,http,cookie,software"
-categories: [HTML]
+categories: []
 icon: icon-html
 ---
 
