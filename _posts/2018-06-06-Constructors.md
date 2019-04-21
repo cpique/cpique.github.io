@@ -5,7 +5,7 @@ tags: [constructor, chsarp, programming, this, base]
 date:   2018-06-06
 desc: Definition, examples and basics of constructors in C#
 keywords: "c#,constructor,blog,programming,csharp"
-categories: [NET]
+categories: [Net]
 icon: icon-html
 ---
 
