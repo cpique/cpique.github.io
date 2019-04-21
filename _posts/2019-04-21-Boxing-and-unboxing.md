@@ -37,25 +37,43 @@ object o = i;     // boxing
 int j = (int)o;   // unboxing
 ```
 
+---
+
 
 ### Comparative table
 
-<table>
+<table style="font-family: arial, sans-serif;border-collapse: collapse;width: 100%;">
   <tr>
-    <td>Boxing</td>
-    <td>Unboxing</td>
+    <th style="border: 1px solid #dddddd;text-align: left;padding: 8px;">
+        Boxing
+    </th>
+    <th style="border: 1px solid #dddddd;text-align: left;padding: 8px;">
+        Unboxing
+    </th>
+  </tr>
+  <tr style="background-color: #dddddd;">
+    <td style="border: 1px solid #dddddd;text-align: left;padding: 8px;">
+        From value type to reference type
+    </td>
+    <td style="border: 1px solid #dddddd;text-align: left;padding: 8px;">
+        From reference type to value type
+    </td>
   </tr>
   <tr>
-    <td>From value type to reference type</td>
-    <td>From reference type to value type</td>
+    <td style="border: 1px solid #dddddd;text-align: left;padding: 8px;">
+        After boxing, value is stored on the heap
+    </td>
+    <td style="border: 1px solid #dddddd;text-align: left;padding: 8px;">
+        After unboxing, value is on the stack
+    </td>
   </tr>
-  <tr>
-    <td>After boxing, value is stored on the heap</td>
-    <td>After unboxing, value is on the stack</td>
-  </tr>
-  <tr>
-    <td>Implicit</td>
-    <td>Explicit</td>
+  <tr style="background-color: #dddddd;">
+    <td style="border: 1px solid #dddddd;text-align: left;padding: 8px;">
+        Implicit
+    </td>
+    <td style="border: 1px solid #dddddd;text-align: left;padding: 8px;">
+        Explicit
+    </td>
   </tr>
 </table>
 
