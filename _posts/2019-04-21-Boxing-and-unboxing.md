@@ -43,7 +43,11 @@ object o = i;     // boxing
 int j = (int)o;   // unboxing
 ```
 
-<img src="{{ site.img_path }}/boxandunbox/01.png" alt="Object example" width="25%">
+<img src="{{ site.img_path }}/boxandunbox/01.PNG" alt="Object example" width="50%">
+
+Syntax
+Boxing: _referenceType variableName = value;_
+Unboxing: _valueType variableName = (valueType) objToUnbox;_
 
 ---
 
