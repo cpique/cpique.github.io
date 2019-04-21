@@ -13,6 +13,9 @@ Before starting, you should know that in C# you can work with 3 different types:
 'Boxing' and 'unboxing' are processes that work with value and reference types.
 'Value types' (int, char, float, double, bool and so on) are stored in the stack, whereas 'reference types' are stored in the managed heap.
 
+<br>
+<br>
+
 ### Definition
 
 'Boxing' is the mechanism of converting a value type to a reference type.
@@ -24,6 +27,8 @@ It converts the value held in the object reference back into a corresponding val
 
 <br>
 <br>
+
+---
 
 ### Example
 
@@ -47,8 +52,15 @@ int j = (int)o;   // unboxing
 | The value is stored on the heap               | The value is stored on the stack              |
 |                                               |                                               |
 
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
+
 <br>
 <br>
+
+---
 
 ### Performance
 
