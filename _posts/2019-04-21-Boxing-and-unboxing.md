@@ -10,8 +10,8 @@ icon: fa-dot-circle-o
 ---
 
 Before starting, you should know that in C# you can work with 3 different types: *value*, *reference* and *pointer* types.
-'Boxing' and 'unboxing' are processes that work with value and reference types.
-'Value types' (int, char, float, double, bool and so on) are stored in the stack, whereas 'reference types' are stored in the managed heap.
+**Boxing** and **unboxing** are processes that work with value and reference types.
+'Value types' (int, char, float, double, bool and so on) have a fixed size of bytes on the stack. Reference types, on the other hand, only store a pointer on the stack, which is the address of some blob of memory on the heap. List and string are both examples of reference types.
 
 
 ---
