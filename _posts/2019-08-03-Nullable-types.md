@@ -79,7 +79,7 @@ string.isNullOrEmpty(""); //true
 
 ### Further reading
 
-If you want to know more, continue with this next post where I talk about the [Null Object Pattern](https://cpique.github.io/2019/08/03/Null-Object-Pattern/){:target="_blank"}
+If you want to know more, continue with this next post where I talk about the [Null Object Pattern](https://cpique.github.io/net/2019/08/03/Null-Object-Pattern.html){:target="_blank"}
 
 ### References
 

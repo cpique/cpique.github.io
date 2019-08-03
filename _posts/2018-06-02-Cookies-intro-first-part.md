@@ -128,7 +128,7 @@ Existen diferentes tipos de cookies segun su duración, finalidad y quién las g
 
 Las cookies pueden ser borradas, aceptadas o bloqueadas según se desee, configurando el navegador web.
 
-[Mirá la segunda parte del post](https://cpique.github.io/2018/06/04/Cookies-intro-second-part/){:target="_blank"}
+[Mirá la segunda parte del post](https://cpique.github.io/2018/06/04/Cookies-intro-second-part){:target="_blank"}
 
 ****
 
