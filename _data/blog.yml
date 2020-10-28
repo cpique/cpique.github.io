@@ -1,24 +1,24 @@
-# blog page sections
-- name: Blog
-  href: /blog/
+# # blog page sections
+# - name: Blog
+#   href: /blog/
 
-# edit following lines to custom your blog page, make sure name is the same as href but capitalized first letter(except HTML)
-- name: Software
-  href: /software/
+# # edit following lines to custom your blog page, make sure name is the same as href but capitalized first letter(except HTML)
+# - name: Software
+#   href: /software/
 
-- name: Angular
-  href: /angular/
+# - name: Angular
+#   href: /angular/
 
-- name: Net
-  href: /net/
+# - name: Net
+#   href: /net/
 
-- name: Life
-  href: /life/
+# - name: Life
+#   href: /life/
 
-- name: German
-  href: /german/
+# - name: German
+#   href: /german/
 
 
-# Don't display donation page: change donation to off at file '_config.yml'
-- name: Donate
-  href: /donate/
+# # Don't display donation page: change donation to off at file '_config.yml'
+# - name: Donate
+#   href: /donate/
