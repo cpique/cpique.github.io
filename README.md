@@ -5,8 +5,3 @@
 <https://cpique.github.io>  -- Personal website
 
 Simple, beautiful and swift theme for Jekyll. It's mobile first, fluidly responsive, and delightfully lightweight.
-
-# Donate Jalpc
-If this project let you enjoy your blog time, you can give the creator a cup of coffee :)
-
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/jarrekk)
